@@ -1,0 +1,71 @@
+{
+  "document_info": {
+    "document_type": "機車駕駛執照",
+    "primary_id": "C121743012"
+  },
+  "blocks": [
+    {
+      "block_id": "personal_info",
+      "block_title": "個人基本資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "姓名",
+          "value": "楊智翔"
+        },
+        {
+          "type": "field",
+          "label": "身分證字號/號碼",
+          "value": "C121743012"
+        },
+        {
+          "type": "field",
+          "label": "出生日期",
+          "value": "093.08.27"
+        }
+      ]
+    },
+    {
+      "block_id": "license_details",
+      "block_title": "執照與車輛細節 (適用於駕照/行照)",
+      "elements": [
+        {
+          "type": "field",
+          "label": "駕照種類",
+          "value": "普通重型機車"
+        },
+        {
+          "type": "field",
+          "label": "條件規定",
+          "value": "A"
+        },
+        {
+          "type": "field",
+          "label": "發照日期",
+          "value": "111.09.02"
+        },
+        {
+          "type": "field",
+          "label": "有效日期",
+          "value": "168.08.27"
+        },
+        {
+          "type": "field",
+          "label": "管轄編號",
+          "value": "2511109021615"
+        }
+      ]
+    },
+    {
+      "block_id": "address_and_other",
+      "block_title": "地址與其他資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "地址",
+          "value": "基隆市信義區孝深里孝東路130之"
+        }
+      ]
+    }
+  ]
+}

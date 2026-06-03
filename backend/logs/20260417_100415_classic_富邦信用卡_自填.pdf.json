@@ -1,0 +1,58 @@
+{
+  "document_info": {
+    "type": "經典模式 (模板: 111)",
+    "document_type": "模板: 111"
+  },
+  "blocks": [
+    {
+      "block_id": "region_1",
+      "block_title": "P1 · 區域1",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "被保險人：陳開明(生)"
+        }
+      ]
+    },
+    {
+      "block_id": "region_2",
+      "block_title": "P1 · 區域2",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "报价编号:00251R10010502551"
+        }
+      ]
+    },
+    {
+      "block_id": "region_3",
+      "block_title": "P1 · 區域3",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "效期至 : 2025/12/18"
+        }
+      ]
+    },
+    {
+      "block_id": "region_4",
+      "block_title": "P1 · 信用卡",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "信用卡卡號： 5678 1034 8780 3314"
+        }
+      ]
+    },
+    {
+      "block_id": "region_5",
+      "block_title": "P1 · 區域5",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "有效期(西元):08月28年"
+        }
+      ]
+    }
+  ]
+}

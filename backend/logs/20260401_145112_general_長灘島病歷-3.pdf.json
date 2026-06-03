@@ -1,0 +1,177 @@
+{
+  "document_info": {
+    "document_type": "SUMMARY OF DISCHARGE SHEET (出院摘要)",
+    "primary_entity_name": "Gorospe, Mary Grace B."
+  },
+  "blocks": [
+    {
+      "block_title": "SUMMARY OF DISCHARGE SHEET",
+      "elements": [
+        {
+          "type": "field",
+          "label": "Discharge Orders For",
+          "value": "Gorospe, Mary Grace B."
+        },
+        {
+          "type": "field",
+          "label": "From",
+          "value": ""
+        },
+        {
+          "type": "field",
+          "label": "Admitting Diagnosis",
+          "value": "Severe Diarrhea"
+        }
+      ]
+    },
+    {
+      "block_title": "ACTIVITY",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "For at least the next 2 weeks:\n• Avoid strenuous activities\n• No heavy lifting\n• No prolonged standing or walking"
+        }
+      ]
+    },
+    {
+      "block_title": "Diagnosis",
+      "elements": [
+        {
+          "type": "field",
+          "label": "Admitting Diagnosis",
+          "value": "Severe Diarrhea"
+        }
+      ]
+    },
+    {
+      "block_title": "ACTIVITY",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "For at least the next 2 weeks:\n• Avoid strenuous activities\n• No heavy lifting\n• No prolonged standing or walking\n• No sports or intense physical exertion\n• Get adequate rest"
+        }
+      ]
+    },
+    {
+      "block_title": "MEDICATIONS",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "Continue prescribed medications as directed:\n• Loperamide – 50 mg every 4–6 hours as needed\n• Bismuth Subsalicylate – 10 mg once daily"
+        }
+      ]
+    },
+    {
+      "block_title": "TREATMENTS",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "• Eating a heart-healthy diet with less salt\n• Getting regular physical activity\n• Maintaining a healthy weight or losing weight\n• Limiting alcohol\n• Not smoking\n• Getting 7 to 9 hours of sleep daily"
+        }
+      ]
+    },
+    {
+      "block_title": "CALL YOUR DOCTOR IF YOU HAVE",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "Headache.\nFlushed, dry skin.\nIrritability and confusion.\nSevere nausea and vomiting.\nLight-headedness and dizziness.\nFatigue (tiredness that doesn't improve with rest).\nDark pee, small amounts of pee or no peeing at all"
+        }
+      ]
+    },
+    {
+      "block_title": "Symptoms / Warning Signs",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "Irritability and confusion.\nSevere nausea and vomiting.\nLight-headedness and dizziness.\nFatigue (tiredness that doesn't improve with rest).\nDark pee, small amounts of pee or no peeing at all"
+        }
+      ]
+    },
+    {
+      "block_title": "DIET",
+      "elements": [
+        {
+          "type": "checkbox",
+          "label": "DIET",
+          "options": [
+            {
+              "text": "REGULAR",
+              "selected": false
+            },
+            {
+              "text": "SOFT",
+              "selected": false
+            },
+            {
+              "text": "LOW SODIUM",
+              "selected": false
+            },
+            {
+              "text": "OTHER: 12 glasses of water per day, high-protein diet, soft food",
+              "selected": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block_title": "FOLLOW UP / REFERRALS",
+      "elements": [
+        {
+          "type": "field",
+          "label": "Home Care",
+          "value": "Ensure adequate hydration, and monitoring of vital signs"
+        },
+        {
+          "type": "field",
+          "label": "Return to MD",
+          "value": ""
+        },
+        {
+          "type": "field",
+          "label": "Other",
+          "value": "Write down any new symptoms or concerns for the next visit"
+        }
+      ]
+    },
+    {
+      "block_title": "EQUIPMENT",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "• Thermometer: To monitor fever\n• BP Monitor / Pulse Oximeter (if available): To check heart rate"
+        }
+      ]
+    },
+    {
+      "block_title": "DECLARATION",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "I HAVE RECEIVED THE ABOVE INSTRUCTIONS AND WAS GIVEN THE OPPORTUNITY TO ASK QUESTIONS."
+        }
+      ]
+    },
+    {
+      "block_title": "簽署資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "Discharging Physician's Signature",
+          "value": "[手寫簽名]"
+        },
+        {
+          "type": "field",
+          "label": "License No.",
+          "value": "0009153"
+        },
+        {
+          "type": "field",
+          "label": "Date",
+          "value": "JUL 04 2025"
+        }
+      ]
+    }
+  ]
+}

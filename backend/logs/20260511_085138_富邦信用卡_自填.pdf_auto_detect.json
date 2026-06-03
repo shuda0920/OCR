@@ -1,0 +1,44 @@
+{
+  "document_info": {
+    "type": "自動識別",
+    "company": "TT",
+    "matched_template": "TT",
+    "anchor_score": 97,
+    "all_scores": {
+      "TT": 97
+    }
+  },
+  "blocks": [
+    {
+      "block_id": "auto_result",
+      "block_title": "自動識別結果（模板：TT）",
+      "elements": [
+        {
+          "type": "field",
+          "label": "P1 · 區域1",
+          "value": "東間的基國"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域2",
+          "value": "00251R10010502551"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域3",
+          "value": "5678 1034 8780 3314"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域4",
+          "value": ":081284"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域5",
+          "value": ": 2025/12/18"
+        }
+      ]
+    }
+  ]
+}

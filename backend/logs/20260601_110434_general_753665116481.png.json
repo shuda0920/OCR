@@ -1,0 +1,176 @@
+{
+  "document_info": {
+    "document_type": "發票 (Invoice)",
+    "primary_entity_name": "John Smith"
+  },
+  "blocks": [
+    {
+      "block_title": "發件人資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "姓名",
+          "value": "John Smith"
+        },
+        {
+          "type": "field",
+          "label": "地址",
+          "value": "4490 Oak Drive\nAlbany, NY 12210"
+        }
+      ]
+    },
+    {
+      "block_title": "發票詳細資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "BILL TO",
+          "value": "Jessie M Horne\n4312 Wood Road\nNew York, NY 10031"
+        },
+        {
+          "type": "field",
+          "label": "SHIP TO",
+          "value": "Jessie M Horne\n2019 Redbud Drive\nNew York, NY 10011"
+        },
+        {
+          "type": "field",
+          "label": "INVOICE #",
+          "value": "INT-001"
+        },
+        {
+          "type": "field",
+          "label": "INVOICE DATE",
+          "value": "11/02/2019"
+        },
+        {
+          "type": "field",
+          "label": "P.O.#",
+          "value": "2412/2019"
+        },
+        {
+          "type": "field",
+          "label": "DUE DATE",
+          "value": "26/02/2019"
+        }
+      ]
+    },
+    {
+      "block_title": "總計金額",
+      "elements": [
+        {
+          "type": "field",
+          "label": "Invoice Total",
+          "value": "$204.75"
+        }
+      ]
+    },
+    {
+      "block_title": "項目清單",
+      "elements": [
+        {
+          "type": "table",
+          "label": "明細項目",
+          "headers": [
+            "QTY",
+            "DESCRIPTION",
+            "UNIT PRICE",
+            "AMOUNT"
+          ],
+          "rows": [
+            [
+              {
+                "value": "1"
+              },
+              {
+                "value": "Front and rear brake cables"
+              },
+              {
+                "value": "100.00"
+              },
+              {
+                "value": "100.00"
+              }
+            ],
+            [
+              {
+                "value": "2"
+              },
+              {
+                "value": "New set of pedal arms"
+              },
+              {
+                "value": "25.00"
+              },
+              {
+                "value": "50.00"
+              }
+            ],
+            [
+              {
+                "value": "3"
+              },
+              {
+                "value": "Labor 3hrs"
+              },
+              {
+                "value": "15.00"
+              },
+              {
+                "value": "45.00"
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "block_title": "金額摘要與簽署",
+      "elements": [
+        {
+          "type": "field",
+          "label": "Subtotal",
+          "value": "195.00"
+        },
+        {
+          "type": "field",
+          "label": "Sales Tax 5.0%",
+          "value": "9.75"
+        },
+        {
+          "type": "field",
+          "label": "簽名",
+          "value": "[手寫簽名] John Smith"
+        }
+      ]
+    },
+    {
+      "block_title": "條款與條件",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "TERMS & CONDITIONS\nPayment is due within 15 days"
+        }
+      ]
+    },
+    {
+      "block_title": "銀行轉帳資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "Name of Bank",
+          "value": ""
+        },
+        {
+          "type": "field",
+          "label": "Account number",
+          "value": "1234567890"
+        },
+        {
+          "type": "field",
+          "label": "Routing",
+          "value": "098765432"
+        }
+      ]
+    }
+  ]
+}

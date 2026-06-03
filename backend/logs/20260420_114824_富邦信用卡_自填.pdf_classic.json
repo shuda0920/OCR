@@ -1,0 +1,104 @@
+{
+  "document_info": {
+    "type": "傳統模板識別",
+    "company": "信用卡授權書"
+  },
+  "blocks": [
+    {
+      "block_id": "classic_result",
+      "block_title": "自定義框選識別結果",
+      "elements": [
+        {
+          "type": "field",
+          "label": "P1 · 姓名",
+          "value": "被保险人：朱開纲基圆"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 報價號碼",
+          "value": "报價號码：00251R10010502551"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 繳費期限",
+          "value": "组賫期限：2025/12/18"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 信用卡卡號",
+          "value": "周卡卡號：5678103487803314"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 有效期限",
+          "value": "有效日期（西元）：08月≥8年"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 信用卡種類",
+          "value": "信用卡種類：□ VISA □ MASTER □ JCB"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 繳費號碼",
+          "value": "缴费码：5352290022"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 立書日期",
+          "value": "立書日期：14年2月7日"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 付款金額",
+          "value": "付款金額：30.117元"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 持卡人身分證",
+          "value": "将卡人身分經號码：276543212（請將必填写）"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 發卡銀行",
+          "value": "卡銀行：冒邦銀行"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 持卡聯絡人電話",
+          "value": "待十人进络电话：0928714503"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 授權碼",
+          "value": "授權码（由保险公司填写）：843288"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 要保人簽名",
+          "value": "参保人签名（请到委征书签名相间）：\n姚 + 佑"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 持卡人簽名",
+          "value": "陳昱遠"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 授權人簽名",
+          "value": "陳是誌"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 業務服務人員",
+          "value": "承辦人：陳眠琳\n電話：02-23812727"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 服務人員簽名",
+          "value": "禁思合"
+        }
+      ]
+    }
+  ]
+}

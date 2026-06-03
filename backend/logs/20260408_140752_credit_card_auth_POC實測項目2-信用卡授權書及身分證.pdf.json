@@ -1,0 +1,169 @@
+{
+  "document_info": {
+    "type": "信用卡付款授權書"
+  },
+  "blocks": [
+    {
+      "block_id": "basic_info",
+      "block_title": "基本與繳費資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "被保險人",
+          "value": null
+        },
+        {
+          "type": "field",
+          "label": "報價號碼",
+          "value": null
+        },
+        {
+          "type": "field",
+          "label": "繳費期限",
+          "value": null
+        },
+        {
+          "type": "field",
+          "label": "繳費號碼",
+          "value": null
+        },
+        {
+          "type": "field",
+          "label": "付款金額",
+          "value": "690"
+        },
+        {
+          "type": "field",
+          "label": "立書日期",
+          "value": "114年12月1日"
+        }
+      ]
+    },
+    {
+      "block_id": "credit_card_info",
+      "block_title": "信用卡資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "信用卡卡號",
+          "value": "8203-9821-0249-4412"
+        },
+        {
+          "type": "field",
+          "label": "有效日期",
+          "value": "02年09月"
+        },
+        {
+          "type": "checkbox_group",
+          "label": "信用卡種類",
+          "options": [
+            {
+              "text": "VISA",
+              "selected": true
+            },
+            {
+              "text": "MASTER",
+              "selected": false
+            },
+            {
+              "text": "JCB",
+              "selected": false
+            },
+            {
+              "text": "AE",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "type": "field",
+          "label": "發卡銀行",
+          "value": "永豐"
+        },
+        {
+          "type": "field",
+          "label": "授權碼",
+          "value": "381655"
+        }
+      ]
+    },
+    {
+      "block_id": "cardholder_info",
+      "block_title": "持卡人資訊與簽名",
+      "elements": [
+        {
+          "type": "field",
+          "label": "持卡人身分證號碼",
+          "value": "L22015238030"
+        },
+        {
+          "type": "field",
+          "label": "持卡人連絡電話",
+          "value": "093712567"
+        },
+        {
+          "type": "field",
+          "label": "授權人姓名",
+          "value": "楊翠昕"
+        },
+        {
+          "type": "field",
+          "label": "授權人親筆簽名",
+          "value": "陳芳"
+        },
+        {
+          "type": "field",
+          "label": "要保人簽名",
+          "value": "葉翠萱"
+        },
+        {
+          "type": "checkbox_group",
+          "label": "持卡人與(要/被)保人關係",
+          "options": [
+            {
+              "text": "本人",
+              "selected": true
+            },
+            {
+              "text": "配偶",
+              "selected": false
+            },
+            {
+              "text": "子女",
+              "selected": false
+            },
+            {
+              "text": "父母",
+              "selected": false
+            },
+            {
+              "text": "其他",
+              "selected": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "service_personnel_info",
+      "block_title": "服務人員資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "承辦人",
+          "value": null
+        },
+        {
+          "type": "field",
+          "label": "電話",
+          "value": null
+        },
+        {
+          "type": "field",
+          "label": "保單服務人員簽章",
+          "value": "已蓋章 (何丹)"
+        }
+      ]
+    }
+  ]
+}

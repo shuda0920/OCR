@@ -1,0 +1,24 @@
+{
+  "document_info": {
+    "type": "傳統模板識別",
+    "company": "測試1"
+  },
+  "blocks": [
+    {
+      "block_id": "classic_result",
+      "block_title": "自定義框選識別結果",
+      "elements": [
+        {
+          "type": "field",
+          "label": "P1 · 姓名",
+          "value": "人：朱圆纲基圆"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 身分證號碼",
+          "value": "：00251R10010502551"
+        }
+      ]
+    }
+  ]
+}

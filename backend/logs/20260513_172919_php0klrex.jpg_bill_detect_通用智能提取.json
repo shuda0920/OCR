@@ -1,0 +1,109 @@
+{
+  "document_info": {
+    "type": "發票識別",
+    "matched_type": "通用智能提取",
+    "match_score": "N/A",
+    "all_scores": "N/A"
+  },
+  "blocks": [
+    {
+      "block_id": "bill_result",
+      "block_title": "發票解析結果 (通用智能提取)",
+      "elements": [
+        {
+          "type": "field",
+          "label": "receipt_info.unified_business_number",
+          "value": "54399012"
+        },
+        {
+          "type": "field",
+          "label": "receipt_info.member_id",
+          "value": "088033067101"
+        },
+        {
+          "type": "field",
+          "label": "receipt_info.transaction_type",
+          "value": "SALE"
+        },
+        {
+          "type": "record_list",
+          "label": "items",
+          "records": [
+            {
+              "item_name": "萬用紙巾布10入",
+              "item_id": "0703510",
+              "quantity": 1,
+              "unit_price": 599,
+              "total_price": 599,
+              "currency": "T"
+            },
+            {
+              "item_name": "萬用紙巾布10入",
+              "item_id": "0703510",
+              "quantity": 1,
+              "unit_price": 599,
+              "total_price": 599,
+              "currency": "T"
+            },
+            {
+              "item_name": "萬用紙巾布10入",
+              "item_id": "0703510",
+              "quantity": 1,
+              "unit_price": 599,
+              "total_price": 599,
+              "currency": "T"
+            },
+            {
+              "item_name": "萬用紙巾布10入",
+              "item_id": "0703510",
+              "quantity": 1,
+              "unit_price": 599,
+              "total_price": 599,
+              "currency": "T"
+            },
+            {
+              "item_name": "日本山藥950G",
+              "item_id": "0041033",
+              "quantity": 1,
+              "unit_price": 249,
+              "total_price": 249,
+              "currency": "T"
+            },
+            {
+              "item_name": "GIOVANNI潤髮乳",
+              "item_id": "0062372",
+              "quantity": 1,
+              "unit_price": 379,
+              "total_price": 379,
+              "currency": "T"
+            },
+            {
+              "item_name": "GIOVANNI潤髮乳",
+              "item_id": "0062372",
+              "quantity": 1,
+              "unit_price": 379,
+              "total_price": 379,
+              "currency": "T"
+            },
+            {
+              "item_name": "日式草莓大福",
+              "item_id": "0116272",
+              "quantity": 1,
+              "unit_price": 299,
+              "total_price": 299,
+              "currency": "T"
+            },
+            {
+              "item_name": "法國可樂糖12",
+              "item_id": "0111891",
+              "quantity": 1,
+              "unit_price": 179,
+              "total_price": 179,
+              "currency": "T"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "document_info": {
+    "type": "傳統模板識別",
+    "company": "111"
+  },
+  "blocks": [
+    {
+      "block_id": "classic_result",
+      "block_title": "自定義框選識別結果",
+      "elements": [
+        {
+          "type": "field",
+          "label": "P1 · 區域1",
+          "value": "[辨識失敗: All connection attempts failed]"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域2",
+          "value": "报价编号: 00251R10010502551"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域3",
+          "value": "效期至 : 2025/12/18"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 信用卡",
+          "value": "佣卡卡號 : 5678 1034 8780 3314"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域5",
+          "value": "有效期(西元):08月28年"
+        }
+      ]
+    }
+  ]
+}

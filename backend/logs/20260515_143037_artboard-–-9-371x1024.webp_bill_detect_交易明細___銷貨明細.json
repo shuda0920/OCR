@@ -1,0 +1,292 @@
+{
+  "detected_type": "交易明細 / 銷貨明細",
+  "use_template": true,
+  "blocks": [
+    {
+      "block_id": "document_metadata",
+      "block_title": "文件資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "region",
+          "value": "TW"
+        },
+        {
+          "type": "field",
+          "label": "main_category",
+          "value": "Receipt"
+        },
+        {
+          "type": "field",
+          "label": "sub_type",
+          "value": "交易明細 / 銷貨明細"
+        },
+        {
+          "type": "field",
+          "label": "confidence_score",
+          "value": "1.0"
+        },
+        {
+          "type": "field",
+          "label": "is_valid",
+          "value": "True"
+        },
+        {
+          "type": "field",
+          "label": "status_tags",
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "block_id": "issuer_info",
+      "block_title": "發行方資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "name",
+          "value": "—"
+        },
+        {
+          "type": "field",
+          "label": "tax_id",
+          "value": "—"
+        },
+        {
+          "type": "field",
+          "label": "address.full_address",
+          "value": "—"
+        },
+        {
+          "type": "field",
+          "label": "address.state_province",
+          "value": "—"
+        },
+        {
+          "type": "field",
+          "label": "address.zip_code",
+          "value": "—"
+        },
+        {
+          "type": "field",
+          "label": "contact",
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "block_id": "transaction_details",
+      "block_title": "交易明細",
+      "elements": [
+        {
+          "type": "field",
+          "label": "invoice_number",
+          "value": "—"
+        },
+        {
+          "type": "field",
+          "label": "order_number",
+          "value": "line2021098765"
+        },
+        {
+          "type": "field",
+          "label": "date_iso",
+          "value": "2021-03-17"
+        },
+        {
+          "type": "field",
+          "label": "time",
+          "value": "15:20:00"
+        },
+        {
+          "type": "field",
+          "label": "taiwan_specific.roc_year_period",
+          "value": "—"
+        },
+        {
+          "type": "field",
+          "label": "taiwan_specific.has_qr_code",
+          "value": "True"
+        },
+        {
+          "type": "field",
+          "label": "taiwan_specific.has_barcode",
+          "value": "False"
+        }
+      ]
+    },
+    {
+      "block_id": "financial_summary",
+      "block_title": "財務摘要",
+      "elements": [
+        {
+          "type": "field",
+          "label": "currency",
+          "value": "TWD"
+        },
+        {
+          "type": "field",
+          "label": "subtotal",
+          "value": "1280.0"
+        },
+        {
+          "type": "field",
+          "label": "tax_details",
+          "value": "—"
+        },
+        {
+          "type": "field",
+          "label": "discounts",
+          "value": "0.0"
+        },
+        {
+          "type": "field",
+          "label": "tip_gratuity",
+          "value": "0.0"
+        },
+        {
+          "type": "field",
+          "label": "total_amount",
+          "value": "1280.0"
+        },
+        {
+          "type": "field",
+          "label": "rounding_diff",
+          "value": "0.0"
+        }
+      ]
+    },
+    {
+      "block_id": "payment_info",
+      "block_title": "付款資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "method",
+          "value": "轉帳匯款"
+        },
+        {
+          "type": "field",
+          "label": "card_details",
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "block_id": "line_items",
+      "block_title": "品項清單",
+      "elements": [
+        {
+          "type": "record_list",
+          "label": "",
+          "records": [
+            {
+              "item_id": null,
+              "description": "黃金泡菜(3入裝) • 2倍泡菜 • 不辣",
+              "quantity": 1,
+              "unit_price": 1080.0,
+              "tax_label": null,
+              "subtotal": 1080.0
+            },
+            {
+              "item_id": null,
+              "description": "台式泡菜 • 2倍泡菜",
+              "quantity": 1,
+              "unit_price": 200.0,
+              "tax_label": null,
+              "subtotal": 200.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "visual_features",
+      "block_title": "視覺特徵",
+      "elements": [
+        {
+          "type": "field",
+          "label": "has_official_stamp",
+          "value": "False"
+        },
+        {
+          "type": "field",
+          "label": "is_handwritten",
+          "value": "False"
+        },
+        {
+          "type": "field",
+          "label": "ocr_raw_text",
+          "value": "商品明細\n列印時間：03-17 17:30 小明\n自取 已確認\n..................................................\n支付方式：轉帳匯款($1280)\n付款狀態：未付款\n..................................................\n訂單編號：line2021098765\n訂單時間：2021-03-17 15:20\n取貨方式：自取\n取貨時間：2021-06-23 15:30\n取貨人姓名：釋金城\n取貨人電話：0912345678\n顧客備註：不需要塑膠袋。\n..................................................\n黃金泡菜(3入裝) X 1\n• 2倍泡菜 • 不辣\n$1080\n..................................................\n台式泡菜 X 1\n• 2倍泡菜\n$200\n..................................................\n小計：2項 金額：$1280元\n[QR CODE]\n請由店員掃描"
+        }
+      ]
+    }
+  ],
+  "construct_json": {
+    "document_metadata": {
+      "region": "TW",
+      "main_category": "Receipt",
+      "sub_type": "交易明細 / 銷貨明細",
+      "confidence_score": 1.0,
+      "is_valid": true,
+      "status_tags": []
+    },
+    "issuer_info": {
+      "name": null,
+      "tax_id": null,
+      "address": {
+        "full_address": null,
+        "state_province": null,
+        "zip_code": null
+      },
+      "contact": null
+    },
+    "transaction_details": {
+      "invoice_number": null,
+      "order_number": "line2021098765",
+      "date_iso": "2021-03-17",
+      "time": "15:20:00",
+      "taiwan_specific": {
+        "roc_year_period": null,
+        "has_qr_code": true,
+        "has_barcode": false
+      }
+    },
+    "financial_summary": {
+      "currency": "TWD",
+      "subtotal": 1280.0,
+      "tax_details": [],
+      "discounts": 0.0,
+      "tip_gratuity": 0.0,
+      "total_amount": 1280.0,
+      "rounding_diff": 0.0
+    },
+    "payment_info": {
+      "method": "轉帳匯款",
+      "card_details": null
+    },
+    "line_items": [
+      {
+        "item_id": null,
+        "description": "黃金泡菜(3入裝) • 2倍泡菜 • 不辣",
+        "quantity": 1,
+        "unit_price": 1080.0,
+        "tax_label": null,
+        "subtotal": 1080.0
+      },
+      {
+        "item_id": null,
+        "description": "台式泡菜 • 2倍泡菜",
+        "quantity": 1,
+        "unit_price": 200.0,
+        "tax_label": null,
+        "subtotal": 200.0
+      }
+    ],
+    "visual_features": {
+      "has_official_stamp": false,
+      "is_handwritten": false,
+      "ocr_raw_text": "商品明細\n列印時間：03-17 17:30 小明\n自取 已確認\n..................................................\n支付方式：轉帳匯款($1280)\n付款狀態：未付款\n..................................................\n訂單編號：line2021098765\n訂單時間：2021-03-17 15:20\n取貨方式：自取\n取貨時間：2021-06-23 15:30\n取貨人姓名：釋金城\n取貨人電話：0912345678\n顧客備註：不需要塑膠袋。\n..................................................\n黃金泡菜(3入裝) X 1\n• 2倍泡菜 • 不辣\n$1080\n..................................................\n台式泡菜 X 1\n• 2倍泡菜\n$200\n..................................................\n小計：2項 金額：$1280元\n[QR CODE]\n請由店員掃描"
+    }
+  }
+}

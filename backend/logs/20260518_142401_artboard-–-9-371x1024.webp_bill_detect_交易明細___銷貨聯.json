@@ -1,0 +1,207 @@
+{
+  "detected_type": "交易明細 / 銷貨聯",
+  "use_template": true,
+  "blocks": [
+    {
+      "block_id": "document_metadata",
+      "block_title": "文件資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "region",
+          "value": "Taiwan"
+        },
+        {
+          "type": "field",
+          "label": "main_category",
+          "value": "Transaction Details"
+        },
+        {
+          "type": "field",
+          "label": "sub_type",
+          "value": "Order Summary"
+        },
+        {
+          "type": "field",
+          "label": "is_valid",
+          "value": "True"
+        },
+        {
+          "type": "field",
+          "label": "status_tags",
+          "value": "confirmed, unpaid"
+        }
+      ]
+    },
+    {
+      "block_id": "transaction_details",
+      "block_title": "交易明細",
+      "elements": [
+        {
+          "type": "field",
+          "label": "order_number",
+          "value": "line2021098765"
+        },
+        {
+          "type": "field",
+          "label": "date_iso",
+          "value": "2021-03-17"
+        },
+        {
+          "type": "field",
+          "label": "time",
+          "value": "15:20"
+        },
+        {
+          "type": "field",
+          "label": "taiwan_specific.has_qr",
+          "value": "True"
+        },
+        {
+          "type": "field",
+          "label": "pickup_details.method",
+          "value": "自取"
+        },
+        {
+          "type": "field",
+          "label": "pickup_details.time",
+          "value": "2021-06-23 15:30"
+        },
+        {
+          "type": "field",
+          "label": "pickup_details.person_name",
+          "value": "釋金城"
+        },
+        {
+          "type": "field",
+          "label": "pickup_details.phone",
+          "value": "0912345678"
+        },
+        {
+          "type": "field",
+          "label": "pickup_details.customer_note",
+          "value": "不需要塑膠袋"
+        }
+      ]
+    },
+    {
+      "block_id": "financial_summary",
+      "block_title": "財務摘要",
+      "elements": [
+        {
+          "type": "field",
+          "label": "currency",
+          "value": "TWD"
+        },
+        {
+          "type": "field",
+          "label": "subtotal",
+          "value": "1280"
+        },
+        {
+          "type": "field",
+          "label": "total_amount",
+          "value": "1280"
+        }
+      ]
+    },
+    {
+      "block_id": "payment_info",
+      "block_title": "付款資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "method",
+          "value": "轉帳匯款"
+        }
+      ]
+    },
+    {
+      "block_id": "line_items",
+      "block_title": "品項清單",
+      "elements": [
+        {
+          "type": "record_list",
+          "label": "",
+          "records": [
+            {
+              "description": "黃金泡菜(3入裝) - 2倍泡菜 • 不辣",
+              "quantity": 1,
+              "unit_price": 1080,
+              "subtotal": 1080
+            },
+            {
+              "description": "台式泡菜 - 2倍泡菜",
+              "quantity": 1,
+              "unit_price": 200,
+              "subtotal": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "visual_features",
+      "block_title": "視覺特徵",
+      "elements": [
+        {
+          "type": "field",
+          "label": "has_qr",
+          "value": "True"
+        }
+      ]
+    }
+  ],
+  "construct_json": {
+    "document_metadata": {
+      "region": "Taiwan",
+      "main_category": "Transaction Details",
+      "sub_type": "Order Summary",
+      "is_valid": true,
+      "status_tags": [
+        "confirmed",
+        "unpaid"
+      ]
+    },
+    "transaction_details": {
+      "order_number": "line2021098765",
+      "date_iso": "2021-03-17",
+      "time": "15:20",
+      "taiwan_specific": {
+        "has_qr": true
+      },
+      "pickup_details": {
+        "method": "自取",
+        "time": "2021-06-23 15:30",
+        "person_name": "釋金城",
+        "phone": "0912345678",
+        "customer_note": "不需要塑膠袋"
+      }
+    },
+    "financial_summary": {
+      "currency": "TWD",
+      "subtotal": 1280,
+      "total_amount": 1280
+    },
+    "payment_info": {
+      "method": "轉帳匯款"
+    },
+    "line_items": [
+      {
+        "description": "黃金泡菜(3入裝) - 2倍泡菜 • 不辣",
+        "quantity": 1,
+        "unit_price": 1080,
+        "subtotal": 1080
+      },
+      {
+        "description": "台式泡菜 - 2倍泡菜",
+        "quantity": 1,
+        "unit_price": 200,
+        "subtotal": 200
+      }
+    ],
+    "visual_features": {
+      "has_qr": true
+    }
+  }
+}

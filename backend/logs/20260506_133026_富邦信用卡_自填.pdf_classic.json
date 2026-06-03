@@ -1,0 +1,74 @@
+{
+  "document_info": {
+    "type": "傳統模板識別",
+    "company": "自填表"
+  },
+  "blocks": [
+    {
+      "block_id": "classic_result",
+      "block_title": "自定義框選識別結果",
+      "elements": [
+        {
+          "type": "field",
+          "label": "P1 · 被保險人",
+          "value": "{\n  \"document_info\": {\n    \"document_type\": \"無法辨識之文字片段 (Unidentifiable text fragment)\",\n    \"primary_entity_name\": \"未知\"\n  },\n  \"blocks\": [\n    {\n      \"block_title\": \"提取內容\",\n      \"elements\": [\n        {\n          \"type\": \"text_block\",\n          \"content\": \"：米閴鈥基圖\"\n        }\n      ]\n    }\n  ]\n}"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 卡號",
+          "value": "{\n  \"document_info\": {\n    \"document_type\": \"Numerical Identifier\",\n    \"primary_entity_name\": \"Unknown\"\n  },\n  \"blocks\": [\n    {\n      \"block_title\": \"Identifier Information\",\n      \"elements\": [\n        {\n          \"type\": \"field\",\n          \"label\": \"ID/Serial Number\",\n          \"value\": \"5678103487803314\"\n        }\n      ]\n    }\n  ]\n}"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 報價號碼",
+          "value": "{\n  \"document_info\": {\n    \"document_type\": \"Document Reference/ID\",\n    \"primary_entity_name\": \"Unknown\"\n  },\n  \"blocks\": [\n    {\n      \"block_title\": \"Document Identification\",\n      \"elements\": [\n        {\n          \"type\": \"field\",\n          \"label\": \"Reference Number\",\n          \"value\": \"：00251E10010502551\"\n        }\n      ]\n    }\n  ]\n}"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 繳費期限",
+          "value": "{\n  \"document_info\": {\n    \"document_type\": \"Date Fragment\",\n    \"primary_entity_name\": \"N/A\"\n  },\n  \"blocks\": [\n    {\n      \"block_title\": \"Date Information\",\n      \"elements\": [\n        {\n          \"type\": \"text_block\",\n          \"content\": \"2025/12/18\"\n        }\n      ]\n    }\n  ]\n}"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 有效日期",
+          "value": "{\n  \"document_info\": {\n    \"document_type\": \"日期片段 (Date Fragment)\",\n    \"primary_entity_name\": \"未辨識\"\n  },\n  \"blocks\": [\n    {\n      \"block_title\": \"日期資訊\",\n      \"elements\": [\n        {\n          \"type\": \"field\",\n          \"label\": \"日期\",\n          \"value\": \"08月28日\"\n        }\n      ]\n    }\n  ]\n}"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 信用卡發卡單位",
+          "value": "{\n  \"document_info\": {\n    \"document_type\": \"支付資訊欄位\",\n    \"primary_entity_name\": \"未提供\"\n  },\n  \"blocks\": [\n    {\n      \"block_title\": \"卡片資訊\",\n      \"elements\": [\n        {\n          \"type\": \"checkbox\",\n          \"label\": \"位置卡種類\",\n          \"options\": [\n            {\n              \"text\": \"VISA\",\n              \"selected\": false\n            },\n            {\n              \"text\": \"MASTER\",\n              \"selected\": false\n            },\n            {\n              \"text\": \"JCB\",\n              \"selected\": false\n            }\n          ]\n        }\n      ]\n    }\n  ]\n}"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 角費號碼",
+          "value": "{\n  \"document_info\": {\n    \"document_type\": \"Numeric Identifier\",\n    \"primary_entity_name\": \"N/A\"\n  },\n  \"blocks\": [\n    {\n      \"block_title\": \"Identifier Information\",\n      \"elements\": [\n        {\n          \"type\": \"field\",\n          \"label\": \"ID/Number\",\n          \"value\": \"5352290022\"\n        }\n      ]\n    }\n  ]\n}"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 立書日期",
+          "value": "{\n  \"document_info\": {\n    \"document_type\": \"日期片段\",\n    \"primary_entity_name\": \"未辨識\"\n  },\n  \"blocks\": [\n    {\n      \"block_title\": \"日期資訊\",\n      \"elements\": [\n        {\n          \"type\": \"field\",\n          \"label\": \"日期\",\n          \"value\": \"1 1 4 年 1 2 月 1 7日\"\n        }\n      ]\n    }\n  ]\n}"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 付款金額",
+          "value": "{\n  \"document_info\": {\n    \"document_type\": \"片段數據 (金額資訊)\",\n    \"primary_entity_name\": \"未知\"\n  },\n  \"blocks\": [\n    {\n      \"block_title\": \"提取內容\",\n      \"elements\": [\n        {\n          \"type\": \"field\",\n          \"label\": \"金額\",\n          \"value\": \"30.117元\"\n        }\n      ]\n    }\n  ]\n}"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 持卡人身分證",
+          "value": "{\n  \"document_info\": {\n    \"document_type\": \"單一識別碼/編號\",\n    \"primary_entity_name\": \"未辨識\"\n  },\n  \"blocks\": [\n    {\n      \"block_title\": \"識別碼內容\",\n      \"elements\": [\n        {\n          \"type\": \"field\",\n          \"label\": \"編號\",\n          \"value\": \"276543217\"\n        }\n      ]\n    }\n  ]\n}"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 銀行",
+          "value": "{\n  \"document_info\": {\n    \"document_type\": \"銀行文件標題/內容\",\n    \"primary_entity_name\": \"冒邦銀行\"\n  },\n  \"blocks\": [\n    {\n      \"block_title\": \"文件內容\",\n      \"elements\": [\n        {\n          \"type\": \"text_block\",\n          \"content\": \"冒邦銀行\"\n        }\n      ]\n    }\n  ]\n}"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 要保人簽名",
+          "value": "{\n  \"document_info\": {\n    \"document_type\": \"未知片段 (Unknown Fragment)\",\n    \"primary_entity_name\": \"未知 (Unknown)\"\n  },\n  \"blocks\": [\n    {\n      \"block_title\": \"提取內容\",\n      \"elements\": [\n        {\n          \"type\": \"text_block\",\n          \"content\": \"机化+估\"\n        }\n      ]\n    }\n  ]\n}"
+        }
+      ]
+    }
+  ]
+}

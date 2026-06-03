@@ -1,0 +1,192 @@
+{
+  "document_info": {
+    "document_type": "Medical Discharge Summary (病歷出院摘要)",
+    "primary_entity_name": "Gorospe, Mary Grace B."
+  },
+  "blocks": [
+    {
+      "block_title": "Clinic Header",
+      "elements": [
+        {
+          "type": "field",
+          "label": "Clinic Name",
+          "value": "Scandi Medical Clinic"
+        },
+        {
+          "type": "field",
+          "label": "Address",
+          "value": "Bolabog, Malay, 5608 Aklan"
+        }
+      ]
+    },
+    {
+      "block_title": "Document Title",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "SUMMARY OF DISCHARGE SHEET"
+        }
+      ]
+    },
+    {
+      "block_title": "Patient Information",
+      "elements": [
+        {
+          "type": "field",
+          "label": "Discharge Orders For",
+          "value": "Gorospe, Mary Grace B."
+        },
+        {
+          "type": "field",
+          "label": "From",
+          "value": "[遮蔽/不可辨識]"
+        },
+        {
+          "type": "field",
+          "label": "Admitting Diagnosis",
+          "value": "Severe Diarrhea"
+        }
+      ]
+    },
+    {
+      "block_title": "Activity Instructions",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "ACTIVITY: For at least the next 2 weeks:\n• Avoid strenuous activities\n• No heavy lifting\n• No prolonged standing or walking\n• No sports or intense physical exertion\n• Get adequate rest"
+        }
+      ]
+    },
+    {
+      "block_title": "Medications",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "MEDICATIONS: Continue prescribed medications as directed;\n• Loperamide - 50 mg every 4-8 hours as needed\n• Bismuth Subsalicylate - 10 mg once daily"
+        }
+      ]
+    },
+    {
+      "block_title": "Treatments",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "TREATMENTS:\n• Eating a heart-healthy diet with less salt\n• Getting regular physical activity\n• Maintaining a healthy weight or losing weight\n• Limiting alcohol\n• Not smoking\n• Getting 7 to 9 hours of sleep daily"
+        }
+      ]
+    },
+    {
+      "block_title": "Warning Signs",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "CALL YOUR DOCTOR IF YOU HAVE:\n• Headache\n• Flushed, dry skin\n• Irritability and confusion\n• Severe nausea and vomiting\n• Light-headedness and dizziness\n• Fatigue (tiredness that doesn't improve with rest)\n• Dark pee, small amounts of pee or no peeing at all"
+        }
+      ]
+    },
+    {
+      "block_title": "Diet",
+      "elements": [
+        {
+          "type": "field",
+          "label": "DIET",
+          "value": "[內容於下一頁]"
+        }
+      ]
+    },
+    {
+      "block_title": "症狀說明 (續)",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "Light-headedness and dizziness.\nFatigue (tiredness that doesn't improve with rest).\nDark pee, small amounts of pee or no peeing at all"
+        }
+      ]
+    },
+    {
+      "block_title": "DIET",
+      "elements": [
+        {
+          "type": "checkbox",
+          "label": "DIET",
+          "options": [
+            {
+              "text": "REGULAR",
+              "selected": false
+            },
+            {
+              "text": "SOFT",
+              "selected": false
+            },
+            {
+              "text": "LOW SODIUM",
+              "selected": false
+            },
+            {
+              "text": "OTHER: 12 glasses of water per day, high-protein diet, soft food",
+              "selected": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block_title": "FOLLOW UP / REFERRALS",
+      "elements": [
+        {
+          "type": "field",
+          "label": "Home Care",
+          "value": "Ensure adequate hydration, and monitoring of vital signs"
+        },
+        {
+          "type": "field",
+          "label": "Return to MD",
+          "value": ""
+        },
+        {
+          "type": "field",
+          "label": "Other",
+          "value": "Write down any new symptoms or concerns for the next visit"
+        }
+      ]
+    },
+    {
+      "block_title": "EQUIPMENT",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "• Thermometer: To monitor fever\n• BP Monitor / Pulse Oximeter (if available): To check heart rate"
+        }
+      ]
+    },
+    {
+      "block_title": "確認與簽署",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "I HAVE RECEIVED THE ABOVE INSTRUCTIONS AND WAS GIVEN THE OPPORTUNITY TO ASK QUESTIONS."
+        },
+        {
+          "type": "field",
+          "label": "Discharging Physician's Signature",
+          "value": "[手寫簽名]"
+        },
+        {
+          "type": "field",
+          "label": "Physician Name (Stamp)",
+          "value": "MARCIE B. ROSSE"
+        },
+        {
+          "type": "field",
+          "label": "License",
+          "value": "License 105 000 153"
+        },
+        {
+          "type": "field",
+          "label": "Date:*",
+          "value": "JUL 0 4 2025"
+        }
+      ]
+    }
+  ]
+}

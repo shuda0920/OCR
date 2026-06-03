@@ -1,0 +1,218 @@
+{
+  "document_info": {
+    "document_type": "名片",
+    "primary_id": "蔣威_互動國際數位"
+  },
+  "blocks": [
+    {
+      "block_title": "名片資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "公司名稱",
+          "value": "互動國際數位"
+        },
+        {
+          "type": "field",
+          "label": "中文姓名",
+          "value": "蔣威"
+        },
+        {
+          "type": "field",
+          "label": "英文姓名",
+          "value": null
+        },
+        {
+          "type": "field",
+          "label": "電子郵件",
+          "value": "weichiang@igis.com.tw"
+        },
+        {
+          "type": "field",
+          "label": "聯絡電話",
+          "value": "0929-882168"
+        }
+      ]
+    },
+    {
+      "block_title": "名片資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "公司名稱",
+          "value": "Lenovo"
+        },
+        {
+          "type": "field",
+          "label": "中文姓名",
+          "value": "王允昊"
+        },
+        {
+          "type": "field",
+          "label": "英文姓名",
+          "value": null
+        },
+        {
+          "type": "field",
+          "label": "電子郵件",
+          "value": "ywang9@lenovo.com"
+        },
+        {
+          "type": "field",
+          "label": "聯絡電話",
+          "value": "02 8170 7500, 0972 333 004"
+        }
+      ]
+    },
+    {
+      "block_title": "名片資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "公司名稱",
+          "value": "互動國際數位"
+        },
+        {
+          "type": "field",
+          "label": "中文姓名",
+          "value": "蔣威"
+        },
+        {
+          "type": "field",
+          "label": "英文姓名",
+          "value": null
+        },
+        {
+          "type": "field",
+          "label": "電子郵件",
+          "value": "weichiang@igis.com.tw"
+        },
+        {
+          "type": "field",
+          "label": "聯絡電話",
+          "value": "0929-882168"
+        }
+      ]
+    },
+    {
+      "block_title": "名片資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "公司名稱",
+          "value": "台北金融大樓股份有限公司"
+        },
+        {
+          "type": "field",
+          "label": "中文姓名",
+          "value": "林喬樺"
+        },
+        {
+          "type": "field",
+          "label": "英文姓名",
+          "value": null
+        },
+        {
+          "type": "field",
+          "label": "電子郵件",
+          "value": "chwei.lin@tfc101.com.tw"
+        },
+        {
+          "type": "field",
+          "label": "聯絡電話",
+          "value": "886 2 8101 9058"
+        }
+      ]
+    },
+    {
+      "block_title": "名片資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "公司名稱",
+          "value": "台灣智能機器人科技股份有限公司"
+        },
+        {
+          "type": "field",
+          "label": "中文姓名",
+          "value": "蔡仁耀"
+        },
+        {
+          "type": "field",
+          "label": "英文姓名",
+          "value": null
+        },
+        {
+          "type": "field",
+          "label": "電子郵件",
+          "value": "alpha_tsai@tirc.com.tw"
+        },
+        {
+          "type": "field",
+          "label": "聯絡電話",
+          "value": "02-2657-5688"
+        }
+      ]
+    },
+    {
+      "block_title": "名片資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "公司名稱",
+          "value": "新台北有線電視"
+        },
+        {
+          "type": "field",
+          "label": "中文姓名",
+          "value": "陳勇志"
+        },
+        {
+          "type": "field",
+          "label": "英文姓名",
+          "value": null
+        },
+        {
+          "type": "field",
+          "label": "電子郵件",
+          "value": null
+        },
+        {
+          "type": "field",
+          "label": "聯絡電話",
+          "value": "0970-121-471"
+        }
+      ]
+    },
+    {
+      "block_title": "名片資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "公司名稱",
+          "value": "BigObject Inc. 核桃運算股份有限公司"
+        },
+        {
+          "type": "field",
+          "label": "中文姓名",
+          "value": "林 松 霖"
+        },
+        {
+          "type": "field",
+          "label": "英文姓名",
+          "value": "Jimmy Lin"
+        },
+        {
+          "type": "field",
+          "label": "電子郵件",
+          "value": "jimmylin@bigobject.io"
+        },
+        {
+          "type": "field",
+          "label": "聯絡電話",
+          "value": "+886-912-403-010"
+        }
+      ]
+    }
+  ]
+}

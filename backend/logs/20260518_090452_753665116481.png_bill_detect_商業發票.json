@@ -1,0 +1,342 @@
+{
+  "detected_type": "商業發票",
+  "use_template": true,
+  "blocks": [
+    {
+      "block_id": "document_metadata",
+      "block_title": "文件資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "region",
+          "value": "US"
+        },
+        {
+          "type": "field",
+          "label": "main_category",
+          "value": "Commercial Invoice"
+        },
+        {
+          "type": "field",
+          "label": "sub_type",
+          "value": "Service and Parts Invoice"
+        },
+        {
+          "type": "field",
+          "label": "confidence_score",
+          "value": "0.99"
+        },
+        {
+          "type": "field",
+          "label": "is_valid",
+          "value": "True"
+        },
+        {
+          "type": "field",
+          "label": "status_tags",
+          "value": "—"
+        }
+      ]
+    },
+    {
+      "block_id": "issuer_info",
+      "block_title": "發行方資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "name",
+          "value": "John Smith"
+        },
+        {
+          "type": "field",
+          "label": "address.full",
+          "value": "4490 Oak Drive, Albany, NY 12210"
+        },
+        {
+          "type": "field",
+          "label": "address.state",
+          "value": "NY"
+        },
+        {
+          "type": "field",
+          "label": "address.zip",
+          "value": "12210"
+        }
+      ]
+    },
+    {
+      "block_id": "transaction_details",
+      "block_title": "交易明細",
+      "elements": [
+        {
+          "type": "field",
+          "label": "invoice_number",
+          "value": "INT-001"
+        },
+        {
+          "type": "field",
+          "label": "order_number",
+          "value": "2412/2019"
+        },
+        {
+          "type": "field",
+          "label": "date_iso",
+          "value": "2019-02-11"
+        },
+        {
+          "type": "field",
+          "label": "us_specific.terms",
+          "value": "Payment is due within 15 days"
+        },
+        {
+          "type": "field",
+          "label": "us_specific.due_date",
+          "value": "2019-02-26"
+        },
+        {
+          "type": "field",
+          "label": "billing_info.name",
+          "value": "Jessie M Horne"
+        },
+        {
+          "type": "field",
+          "label": "billing_info.address.full",
+          "value": "4312 Wood Road, New York, NY 10031"
+        },
+        {
+          "type": "field",
+          "label": "billing_info.address.state",
+          "value": "NY"
+        },
+        {
+          "type": "field",
+          "label": "billing_info.address.zip",
+          "value": "10031"
+        },
+        {
+          "type": "field",
+          "label": "shipping_info.name",
+          "value": "Jessie M Horne"
+        },
+        {
+          "type": "field",
+          "label": "shipping_info.address.full",
+          "value": "2019 Redbud Drive, New York, NY 10011"
+        },
+        {
+          "type": "field",
+          "label": "shipping_info.address.state",
+          "value": "NY"
+        },
+        {
+          "type": "field",
+          "label": "shipping_info.address.zip",
+          "value": "10011"
+        }
+      ]
+    },
+    {
+      "block_id": "financial_summary",
+      "block_title": "財務摘要",
+      "elements": [
+        {
+          "type": "field",
+          "label": "currency",
+          "value": "USD"
+        },
+        {
+          "type": "field",
+          "label": "subtotal",
+          "value": "195.0"
+        },
+        {
+          "type": "record_list",
+          "label": "tax_details",
+          "records": [
+            {
+              "type": "Sales Tax",
+              "rate": 5.0,
+              "amount": 9.75
+            }
+          ]
+        },
+        {
+          "type": "field",
+          "label": "total_amount",
+          "value": "204.75"
+        }
+      ]
+    },
+    {
+      "block_id": "payment_info",
+      "block_title": "付款資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "method",
+          "value": "Bank Transfer"
+        },
+        {
+          "type": "field",
+          "label": "bank_details.bank_name",
+          "value": "Name of Bank"
+        },
+        {
+          "type": "field",
+          "label": "bank_details.account_number",
+          "value": "1234567890"
+        },
+        {
+          "type": "field",
+          "label": "bank_details.routing_number",
+          "value": "098765432"
+        }
+      ]
+    },
+    {
+      "block_id": "line_items",
+      "block_title": "品項清單",
+      "elements": [
+        {
+          "type": "record_list",
+          "label": "",
+          "records": [
+            {
+              "description": "Front and rear brake cables",
+              "quantity": 1,
+              "unit_price": 100.0,
+              "subtotal": 100.0
+            },
+            {
+              "description": "New set of pedal arms",
+              "quantity": 2,
+              "unit_price": 25.0,
+              "subtotal": 50.0
+            },
+            {
+              "description": "Labor 3hrs",
+              "quantity": 3,
+              "unit_price": 15.0,
+              "subtotal": 45.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "visual_features",
+      "block_title": "視覺特徵",
+      "elements": [
+        {
+          "type": "field",
+          "label": "has_official_stamp",
+          "value": "False"
+        },
+        {
+          "type": "field",
+          "label": "is_handwritten",
+          "value": "True"
+        },
+        {
+          "type": "field",
+          "label": "signature_present",
+          "value": "True"
+        },
+        {
+          "type": "field",
+          "label": "signature_name",
+          "value": "John Smith"
+        }
+      ]
+    }
+  ],
+  "construct_json": {
+    "document_metadata": {
+      "region": "US",
+      "main_category": "Commercial Invoice",
+      "sub_type": "Service and Parts Invoice",
+      "confidence_score": 0.99,
+      "is_valid": true,
+      "status_tags": []
+    },
+    "issuer_info": {
+      "name": "John Smith",
+      "address": {
+        "full": "4490 Oak Drive, Albany, NY 12210",
+        "state": "NY",
+        "zip": "12210"
+      }
+    },
+    "transaction_details": {
+      "invoice_number": "INT-001",
+      "order_number": "2412/2019",
+      "date_iso": "2019-02-11",
+      "us_specific": {
+        "terms": "Payment is due within 15 days",
+        "due_date": "2019-02-26"
+      },
+      "billing_info": {
+        "name": "Jessie M Horne",
+        "address": {
+          "full": "4312 Wood Road, New York, NY 10031",
+          "state": "NY",
+          "zip": "10031"
+        }
+      },
+      "shipping_info": {
+        "name": "Jessie M Horne",
+        "address": {
+          "full": "2019 Redbud Drive, New York, NY 10011",
+          "state": "NY",
+          "zip": "10011"
+        }
+      }
+    },
+    "financial_summary": {
+      "currency": "USD",
+      "subtotal": 195.0,
+      "tax_details": [
+        {
+          "type": "Sales Tax",
+          "rate": 5.0,
+          "amount": 9.75
+        }
+      ],
+      "total_amount": 204.75
+    },
+    "payment_info": {
+      "method": "Bank Transfer",
+      "bank_details": {
+        "bank_name": "Name of Bank",
+        "account_number": "1234567890",
+        "routing_number": "098765432"
+      }
+    },
+    "line_items": [
+      {
+        "description": "Front and rear brake cables",
+        "quantity": 1,
+        "unit_price": 100.0,
+        "subtotal": 100.0
+      },
+      {
+        "description": "New set of pedal arms",
+        "quantity": 2,
+        "unit_price": 25.0,
+        "subtotal": 50.0
+      },
+      {
+        "description": "Labor 3hrs",
+        "quantity": 3,
+        "unit_price": 15.0,
+        "subtotal": 45.0
+      }
+    ],
+    "visual_features": {
+      "has_official_stamp": false,
+      "is_handwritten": true,
+      "signature_present": true,
+      "signature_name": "John Smith"
+    }
+  }
+}

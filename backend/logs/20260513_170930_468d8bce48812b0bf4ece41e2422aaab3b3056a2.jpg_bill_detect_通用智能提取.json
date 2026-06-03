@@ -1,0 +1,117 @@
+{
+  "document_info": {
+    "type": "發票識別",
+    "matched_type": "通用智能提取",
+    "match_score": "N/A",
+    "all_scores": "N/A"
+  },
+  "blocks": [
+    {
+      "block_id": "bill_result",
+      "block_title": "發票解析結果 (通用智能提取)",
+      "elements": [
+        {
+          "type": "field",
+          "label": "receipt_details.store_name",
+          "value": "華山分公司"
+        },
+        {
+          "type": "field",
+          "label": "receipt_details.phone",
+          "value": "02-2321-3695"
+        },
+        {
+          "type": "field",
+          "label": "receipt_details.transaction_date",
+          "value": "2024/06/11"
+        },
+        {
+          "type": "field",
+          "label": "receipt_details.transaction_time",
+          "value": "18:19"
+        },
+        {
+          "type": "field",
+          "label": "receipt_details.receipt_number",
+          "value": "0277 1805"
+        },
+        {
+          "type": "field",
+          "label": "receipt_details.machine_id",
+          "value": "027702"
+        },
+        {
+          "type": "field",
+          "label": "receipt_details.order_number",
+          "value": "000293"
+        },
+        {
+          "type": "field",
+          "label": "receipt_details.cashier_id",
+          "value": "2203907"
+        },
+        {
+          "type": "record_list",
+          "label": "items",
+          "records": [
+            {
+              "item_id": "40",
+              "name": "老協珍人蔘精",
+              "price": 540
+            },
+            {
+              "item_id": "06",
+              "name": "崇德發黑麥汁",
+              "price": 168
+            },
+            {
+              "item_id": "29",
+              "name": "愛文芒果(盒)",
+              "price": 99
+            },
+            {
+              "item_id": "05",
+              "name": "新奇潔漂白水",
+              "price": 79
+            },
+            {
+              "item_id": "46",
+              "name": "可口可樂吸油紙",
+              "price": 79
+            },
+            {
+              "item_id": "46",
+              "name": "可口可樂吸油紙",
+              "price": 79
+            },
+            {
+              "item_id": "34",
+              "name": "金頂鋰電池2032",
+              "price": 76
+            },
+            {
+              "item_id": "53",
+              "name": "桂冠輕沙拉",
+              "price": 28
+            }
+          ]
+        },
+        {
+          "type": "field",
+          "label": "summary.total_items_count",
+          "value": "7"
+        },
+        {
+          "type": "field",
+          "label": "summary.subtotal",
+          "value": "1069"
+        },
+        {
+          "type": "field",
+          "label": "summary.total_amount",
+          "value": "1069"
+        }
+      ]
+    }
+  ]
+}

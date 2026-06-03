@@ -1,0 +1,48 @@
+{
+  "document_info": {
+    "type": "經典模式 (模板: 1124)",
+    "document_type": "模板: 1124"
+  },
+  "blocks": [
+    {
+      "block_id": "region_1",
+      "block_title": "P1 · 區域1",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "被保險人：東岡初系圖"
+        }
+      ]
+    },
+    {
+      "block_id": "region_2",
+      "block_title": "P1 · 區域2",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "報價號碼：00251R10010502551"
+        }
+      ]
+    },
+    {
+      "block_id": "region_3",
+      "block_title": "P1 · 區域3",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "租賃期至：2025/12/18"
+        }
+      ]
+    },
+    {
+      "block_id": "region_4",
+      "block_title": "P1 · 信用卡",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "使用卡卡號 : 5678 1034 8780 3314"
+        }
+      ]
+    }
+  ]
+}

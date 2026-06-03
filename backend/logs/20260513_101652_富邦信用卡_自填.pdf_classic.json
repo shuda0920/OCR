@@ -1,0 +1,49 @@
+{
+  "document_info": {
+    "type": "傳統模板識別",
+    "company": "TT"
+  },
+  "blocks": [
+    {
+      "block_id": "classic_result",
+      "block_title": "自定義框選識別結果",
+      "elements": [
+        {
+          "type": "field",
+          "label": "P1 · 判斷點1",
+          "value": "飛m量產物保險股份有限公司 29 金融通路 臺北\nCHUNG KUO INSURANCE CO., LTD.\n地址：100臺北市中正區重慶南路一段58號 電話：02-23812727"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 判斷點2",
+          "value": "北量保险"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域1",
+          "value": "東間研基國"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域2",
+          "value": ": 00251R10010502551"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域3",
+          "value": "5678 1034 8780 3314"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域4",
+          "value": ":081284"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域5",
+          "value": ": 2025/12/18"
+        }
+      ]
+    }
+  ]
+}

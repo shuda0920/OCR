@@ -1,0 +1,39 @@
+{
+  "document_info": {
+    "type": "傳統模板識別",
+    "company": "111"
+  },
+  "blocks": [
+    {
+      "block_id": "classic_result",
+      "block_title": "自定義框選識別結果",
+      "elements": [
+        {
+          "type": "field",
+          "label": "P1 · 區域1",
+          "value": "被保险人：米圆纲基圆"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域2",
+          "value": "报價號码：00251R10010502551"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域3",
+          "value": "組賞期限：2025/12/18"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 信用卡",
+          "value": "```json\n{\n    \"text\": \"信用卡账号：5678 1034 8780 3314\"\n}\n```"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域5",
+          "value": "有效日期（西元）：08月≥8年"
+        }
+      ]
+    }
+  ]
+}

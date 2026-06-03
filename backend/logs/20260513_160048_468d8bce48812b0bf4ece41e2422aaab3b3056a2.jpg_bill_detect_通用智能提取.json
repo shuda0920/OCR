@@ -1,0 +1,37 @@
+{
+  "document_info": {
+    "type": "發票識別",
+    "matched_type": "通用智能提取",
+    "match_score": "N/A",
+    "all_scores": "N/A"
+  },
+  "blocks": [
+    {
+      "block_id": "bill_result",
+      "block_title": "發票解析結果 (通用智能提取)",
+      "elements": [
+        {
+          "type": "field",
+          "label": "receipt_details",
+          "value": "{'store_info': {'branch_name': '華山分公司', 'telephone': '02-2321-3695'}, 'transaction_info': {'date': '2024/06/11', 'time': '18:19', 'terminal_id': '0277 1805', 'machine_id': '027902', 'sequence_number': '000293', 'cashier_id': '2203907'}}"
+        },
+        {
+          "type": "field",
+          "label": "items",
+          "value": "[{'item_id': '#40', 'description': '老協珍人蔘精', 'unit_price': 540, 'currency': 'TWD'}, {'item_id': '#06', 'description': '崇德發黑麥汁', 'unit_price': 168, 'currency': 'TWD'}, {'item_id': '29', 'description': '愛文芒果(盒)', 'unit_price': 99, 'currency': 'TWD'}, {'item_id': '#05', 'description': '新奇潔漂白水', 'unit_price': 79, 'currency': 'TWD'}, {'item_id': '#46', 'description': '可口可樂吸油紙', 'unit_price': 79, 'currency': 'TWD'}, {'item_id': '#34', 'description': '金頂鋰電池2032', 'unit_price': 76, 'currency': 'TWD'}, {'item_id': '#53', 'description': '桂冠輕沙拉', 'unit_price': 28, 'currency': 'TWD'}]"
+        },
+        {
+          "type": "field",
+          "label": "adjustments",
+          "value": "[{'type': 'refund/correction', 'description': '老協珍人蔘精 (Adjustment)', 'amount': -540, 'currency': 'TWD'}, {'type': 'refund/correction', 'description': '可口可樂吸油紙 (Adjustment)', 'amount': -79, 'currency': 'TWD'}]"
+        },
+        {
+          "type": "field",
+          "label": "summary",
+          "value": "{'total_item_count': 7, 'subtotal': 1069, 'currency': 'TWD'}"
+        }
+      ]
+    }
+  ],
+  "json_text": "{\n  \"receipt_details\": {\n    \"store_info\": {\n      \"branch_name\": \"華山分公司\",\n      \"telephone\": \"02-2321-3695\"\n    },\n    \"transaction_info\": {\n      \"date\": \"2024/06/11\",\n      \"time\": \"18:19\",\n      \"terminal_id\": \"0277 1805\",\n      \"machine_id\": \"027902\",\n      \"sequence_number\": \"000293\",\n      \"cashier_id\": \"2203907\"\n    }\n  },\n  \"items\": [\n    {\n      \"item_id\": \"#40\",\n      \"description\": \"老協珍人蔘精\",\n      \"unit_price\": 540,\n      \"currency\": \"TWD\"\n    },\n    {\n      \"item_id\": \"#06\",\n      \"description\": \"崇德發黑麥汁\",\n      \"unit_price\": 168,\n      \"currency\": \"TWD\"\n    },\n    {\n      \"item_id\": \"29\",\n      \"description\": \"愛文芒果(盒)\",\n      \"unit_price\": 99,\n      \"currency\": \"TWD\"\n    },\n    {\n      \"item_id\": \"#05\",\n      \"description\": \"新奇潔漂白水\",\n      \"unit_price\": 79,\n      \"currency\": \"TWD\"\n    },\n    {\n      \"item_id\": \"#46\",\n      \"description\": \"可口可樂吸油紙\",\n      \"unit_price\": 79,\n      \"currency\": \"TWD\"\n    },\n    {\n      \"item_id\": \"#34\",\n      \"description\": \"金頂鋰電池2032\",\n      \"unit_price\": 76,\n      \"currency\": \"TWD\"\n    },\n    {\n      \"item_id\": \"#53\",\n      \"description\": \"桂冠輕沙拉\",\n      \"unit_price\": 28,\n      \"currency\": \"TWD\"\n    }\n  ],\n  \"adjustments\": [\n    {\n      \"type\": \"refund/correction\",\n      \"description\": \"老協珍人蔘精 (Adjustment)\",\n      \"amount\": -540,\n      \"currency\": \"TWD\"\n    },\n    {\n      \"type\": \"refund/correction\",\n      \"description\": \"可口可樂吸油紙 (Adjustment)\",\n      \"amount\": -79,\n      \"currency\": \"TWD\"\n    }\n  ],\n  \"summary\": {\n    \"total_item_count\": 7,\n    \"subtotal\": 1069,\n    \"currency\": \"TWD\"\n  }\n}"
+}

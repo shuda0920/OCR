@@ -1,0 +1,149 @@
+{
+  "document_info": {
+    "document_type": "SUMMARY OF DISCHARGE SHEET",
+    "primary_entity_name": "Gorospe, Mary Grace B."
+  },
+  "blocks": [
+    {
+      "block_title": "Header",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "SCANDI MEDICAL CLINIC BORACAY\nScandi Medical Clinic\nBolabog, Malay, 5608 Aklan"
+        }
+      ]
+    },
+    {
+      "block_title": "Title",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "SUMMARY OF DISCHARGE SHEET"
+        }
+      ]
+    },
+    {
+      "block_title": "Patient Information",
+      "elements": [
+        {
+          "type": "field",
+          "label": "Discharge Orders For",
+          "value": "Gorospe, Mary Grace B."
+        },
+        {
+          "type": "field",
+          "label": "From",
+          "value": "[黑色塗改遮蔽]"
+        },
+        {
+          "type": "field",
+          "label": "Admitting Diagnosis",
+          "value": "Severe Diarrhea"
+        }
+      ]
+    },
+    {
+      "block_title": "Discharge Instructions",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "ACTIVITY: For at least the next 2 weeks:\n• Avoid strenuous activities\n• No heavy lifting\n• No prolonged standing or walking\n• No sports or intense physical exertion\n• Get adequate rest"
+        },
+        {
+          "type": "text_block",
+          "content": "MEDICATIONS: Continue prescribed medications as directed:\n• Loperamide – 50 mg every 4–6 hours as needed\n• Bismuth Subsalicylate – 10 mg once daily"
+        },
+        {
+          "type": "text_block",
+          "content": "TREATMENTS:\n• Eating a heart-healthy diet with less salt\n• Getting regular physical activity\n• Maintaining a healthy weight or losing weight\n• Limiting alcohol\n• Not smoking\n• Getting 7 to 9 hours of sleep daily"
+        },
+        {
+          "type": "text_block",
+          "content": "CALL YOUR DOCTOR IF YOU HAVE:\nHeadache,\nFlushed, dry skin.\nIrritability and confusion.\nSevere nausea and vomiting.\nLight-headedness and dizziness.\nFatigue (tiredness that doesn't improve with rest).\nDark pee, small amounts of pee or no peeing at all"
+        },
+        {
+          "type": "text_block",
+          "content": "DIET:"
+        }
+      ]
+    },
+    {
+      "block_title": "Symptoms",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "Severe nausea and vomiting.\nLight-headedness and dizziness.\nFatigue (tiredness that doesn't improve with rest).\nDark pee, small amounts of pee or no peeing at all"
+        }
+      ]
+    },
+    {
+      "block_title": "DIET",
+      "elements": [
+        {
+          "type": "checkbox",
+          "label": "DIET:",
+          "options": [
+            {
+              "text": "REGULAR",
+              "selected": false
+            },
+            {
+              "text": "SOFT",
+              "selected": false
+            },
+            {
+              "text": "LOW SODIUM",
+              "selected": false
+            },
+            {
+              "text": "OTHER: 12 glasses of water per day, high-protein diet, soft food",
+              "selected": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block_title": "FOLLOW UP / REFERRALS",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "FOLLOW UP / REFERRALS:\nHome Care: Ensure adequate hydration, and monitoring of vital signs\nReturn to MD:\nOther: Write down any new symptoms or concerns for the next visit"
+        }
+      ]
+    },
+    {
+      "block_title": "EQUIPMENT",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "EQUIPMENT:\n• Thermometer: To monitor fever\n• BP Monitor / Pulse Oximeter (if available): To check heart rate"
+        }
+      ]
+    },
+    {
+      "block_title": "Acknowledgment",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "I HAVE RECEIVED THE ABOVE INSTRUCTIONS AND WAS GIVEN THE OPPORTUNITY TO ASK QUESTIONS."
+        }
+      ]
+    },
+    {
+      "block_title": "Signatures",
+      "elements": [
+        {
+          "type": "field",
+          "label": "Discharging Physician's Signature:",
+          "value": "[手寫簽名] [蓋章] MARY GRACE D. GOROSPE License No. 0087153"
+        },
+        {
+          "type": "field",
+          "label": "*Date:*",
+          "value": "JUL 0 4 2025"
+        }
+      ]
+    }
+  ]
+}

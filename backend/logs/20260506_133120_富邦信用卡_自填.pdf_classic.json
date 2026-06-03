@@ -1,0 +1,74 @@
+{
+  "document_info": {
+    "type": "傳統模板識別",
+    "company": "自填表"
+  },
+  "blocks": [
+    {
+      "block_id": "classic_result",
+      "block_title": "自定義框選識別結果",
+      "elements": [
+        {
+          "type": "field",
+          "label": "P1 · 被保險人",
+          "value": "：求閩鈥基圖"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 卡號",
+          "value": "5678103487803314"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 報價號碼",
+          "value": "：00251E10010502551"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 繳費期限",
+          "value": "2025/12/18"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 有效日期",
+          "value": "：08月28日"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 信用卡發卡單位",
+          "value": "位用卡種類：VISA MASTER JCB"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 角費號碼",
+          "value": "5352290022"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 立書日期",
+          "value": "1 1 4 年 1 2 月 1 7 日"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 付款金額",
+          "value": "30.117元"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 持卡人身分證",
+          "value": "276543217"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 銀行",
+          "value": "冒邦銀行"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 要保人簽名",
+          "value": "机化+估"
+        }
+      ]
+    }
+  ]
+}

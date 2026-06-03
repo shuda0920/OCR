@@ -1,0 +1,78 @@
+﻿Time,Filename,Model,doc_type,doc_matched_type,doc_match_score,doc_all_scores,is_taiwan_invoice,invoice_info,payment_details,items,confidence_score,json_text,receipt_info.unified_business_number,receipt_info.member_id,receipt_info.transaction_type
+2026-05-13 15:17:24,bill_detect_TW_bill,gemma4:26b,發票識別,TW_bill,15,"{'TW_bill': 15, 'US_bill': 15}",True,"{'type': '收銀機發票', 'number': None, 'date': None, 'roc_period': None, 'seller_vat_id': '54399012', 'buyer_vat_id': None, 'total_amount': 3881, 'tax_amount': None, 'sales_amount': 3881}","{'method': None, 'card_info': None, 'change': None}","[{'name': '萬用紙巾布10入', 'quantity': 1, 'unit_price': 599, 'subtotal': 599}, {'name': '萬用紙巾布10入', 'quantity': 1, 'unit_price': 599, 'subtotal': 599}, {'name': '萬用紙紙巾布10入', 'quantity': 1, 'unit_price': 599, 'subtotal': 599}, {'name': '萬用紙巾布10入', 'quantity': 1, 'unit_price': 599, 'subtotal': 599}, {'name': '日本山藥950G', 'quantity': 1, 'unit_price': 249, 'subtotal': 249}, {'name': 'GIOVANNI潤髮乳', 'quantity': 1, 'unit_price': 379, 'subtotal': 379}, {'name': 'GIOVANNI潤髮乳', 'quantity': 1, 'unit_price': 379, 'subtotal': 379}, {'name': '日式草莓大福', 'quantity': 1, 'unit_price': 299, 'subtotal': 299}, {'name': '法國可樂餅12', 'quantity': 1, 'unit_price': 179, 'subtotal': 179}]",0.95,"{
+  ""is_taiwan_invoice"": true,
+  ""invoice_info"": {
+    ""type"": ""收銀機發票"",
+    ""number"": null,
+    ""date"": null,
+    ""roc_period"": null,
+    ""seller_vat_id"": ""54399012"",
+    ""buyer_vat_id"": null,
+    ""total_amount"": 3881,
+    ""tax_amount"": null,
+    ""sales_amount"": 3881
+  },
+  ""payment_details"": {
+    ""method"": null,
+    ""card_info"": null,
+    ""change"": null
+  },
+  ""items"": [
+    {
+      ""name"": ""萬用紙巾布10入"",
+      ""quantity"": 1,
+      ""unit_price"": 599,
+      ""subtotal"": 599
+    },
+    {
+      ""name"": ""萬用紙巾布10入"",
+      ""quantity"": 1,
+      ""unit_price"": 599,
+      ""subtotal"": 599
+    },
+    {
+      ""name"": ""萬用紙紙巾布10入"",
+      ""quantity"": 1,
+      ""unit_price"": 599,
+      ""subtotal"": 599
+    },
+    {
+      ""name"": ""萬用紙巾布10入"",
+      ""quantity"": 1,
+      ""unit_price"": 599,
+      ""subtotal"": 599
+    },
+    {
+      ""name"": ""日本山藥950G"",
+      ""quantity"": 1,
+      ""unit_price"": 249,
+      ""subtotal"": 249
+    },
+    {
+      ""name"": ""GIOVANNI潤髮乳"",
+      ""quantity"": 1,
+      ""unit_price"": 379,
+      ""subtotal"": 379
+    },
+    {
+      ""name"": ""GIOVANNI潤髮乳"",
+      ""quantity"": 1,
+      ""unit_price"": 379,
+      ""subtotal"": 379
+    },
+    {
+      ""name"": ""日式草莓大福"",
+      ""quantity"": 1,
+      ""unit_price"": 299,
+      ""subtotal"": 299
+    },
+    {
+      ""name"": ""法國可樂餅12"",
+      ""quantity"": 1,
+      ""unit_price"": 179,
+      ""subtotal"": 179
+    }
+  ],
+  ""confidence_score"": 0.95
+}",,,
+2026-05-13 17:29:19,bill_detect_通用智能提取,gemma4:26b,發票識別,通用智能提取,N/A,N/A,,,,,,,54399012,088033067101,SALE

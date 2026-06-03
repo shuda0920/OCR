@@ -1,0 +1,186 @@
+{
+  "detected_type": "交易明細 / 銷貨聯",
+  "use_template": true,
+  "blocks": [
+    {
+      "block_id": "document_metadata",
+      "block_title": "文件資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "region",
+          "value": "Taiwan"
+        },
+        {
+          "type": "field",
+          "label": "main_category",
+          "value": "transaction_details"
+        },
+        {
+          "type": "field",
+          "label": "sub_type",
+          "value": "sales_slip"
+        },
+        {
+          "type": "field",
+          "label": "is_valid",
+          "value": "False"
+        },
+        {
+          "type": "field",
+          "label": "status_tags",
+          "value": "voided, order_completed, self_pickup"
+        }
+      ]
+    },
+    {
+      "block_id": "issuer_info",
+      "block_title": "發行方資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "tax_id",
+          "value": "12344321"
+        }
+      ]
+    },
+    {
+      "block_id": "transaction_details",
+      "block_title": "交易明細",
+      "elements": [
+        {
+          "type": "field",
+          "label": "invoice_number",
+          "value": "QM-55560938"
+        },
+        {
+          "type": "field",
+          "label": "order_number",
+          "value": "line2021098765"
+        },
+        {
+          "type": "field",
+          "label": "date_iso",
+          "value": "03-17"
+        },
+        {
+          "type": "field",
+          "label": "time",
+          "value": "18:20"
+        },
+        {
+          "type": "field",
+          "label": "taiwan_specific.has_qr",
+          "value": "False"
+        },
+        {
+          "type": "field",
+          "label": "taiwan_specific.has_barcode",
+          "value": "False"
+        }
+      ]
+    },
+    {
+      "block_id": "financial_summary",
+      "block_title": "財務摘要",
+      "elements": [
+        {
+          "type": "field",
+          "label": "currency",
+          "value": "TWD"
+        },
+        {
+          "type": "field",
+          "label": "subtotal",
+          "value": "1280"
+        },
+        {
+          "type": "field",
+          "label": "discounts",
+          "value": "0"
+        },
+        {
+          "type": "field",
+          "label": "delivery_fee",
+          "value": "0"
+        },
+        {
+          "type": "field",
+          "label": "additional_fee",
+          "value": "0"
+        },
+        {
+          "type": "field",
+          "label": "total_amount",
+          "value": "1280"
+        },
+        {
+          "type": "field",
+          "label": "amount_received",
+          "value": "1280"
+        },
+        {
+          "type": "field",
+          "label": "change",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "block_id": "payment_info",
+      "block_title": "付款資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "method",
+          "value": "Bank Transfer"
+        },
+        {
+          "type": "field",
+          "label": "payment_status",
+          "value": "Paid"
+        }
+      ]
+    }
+  ],
+  "construct_json": {
+    "document_metadata": {
+      "region": "Taiwan",
+      "main_category": "transaction_details",
+      "sub_type": "sales_slip",
+      "is_valid": false,
+      "status_tags": [
+        "voided",
+        "order_completed",
+        "self_pickup"
+      ]
+    },
+    "issuer_info": {
+      "tax_id": "12344321"
+    },
+    "transaction_details": {
+      "invoice_number": "QM-55560938",
+      "order_number": "line2021098765",
+      "date_iso": "03-17",
+      "time": "18:20",
+      "taiwan_specific": {
+        "has_qr": false,
+        "has_barcode": false
+      }
+    },
+    "financial_summary": {
+      "currency": "TWD",
+      "subtotal": 1280,
+      "discounts": 0,
+      "delivery_fee": 0,
+      "additional_fee": 0,
+      "total_amount": 1280,
+      "amount_received": 1280,
+      "change": 0
+    },
+    "payment_info": {
+      "method": "Bank Transfer",
+      "payment_status": "Paid"
+    }
+  }
+}

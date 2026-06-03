@@ -1,0 +1,38 @@
+{
+  "document_info": {
+    "document_type": "名片",
+    "primary_id": "蔣 威_互動國際數位"
+  },
+  "blocks": [
+    {
+      "block_title": "名片資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "公司名稱",
+          "value": "互動國際數位"
+        },
+        {
+          "type": "field",
+          "label": "中文姓名",
+          "value": "蔣 威"
+        },
+        {
+          "type": "field",
+          "label": "英文姓名",
+          "value": "Jimmy Lin"
+        },
+        {
+          "type": "field",
+          "label": "電子郵件",
+          "value": "weichiang@igis.com.tw"
+        },
+        {
+          "type": "field",
+          "label": "聯絡電話",
+          "value": "0929-882168"
+        }
+      ]
+    }
+  ]
+}

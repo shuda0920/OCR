@@ -1,0 +1,39 @@
+{
+  "document_info": {
+    "type": "傳統模板識別",
+    "company": "111"
+  },
+  "blocks": [
+    {
+      "block_id": "classic_result",
+      "block_title": "自定義框選識別結果",
+      "elements": [
+        {
+          "type": "field",
+          "label": "P1 · 區域1",
+          "value": "[辨識失敗: All connection attempts failed]"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域2",
+          "value": "[辨識失敗: All connection attempts failed]"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域3",
+          "value": "[辨識失敗: All connection attempts failed]"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 信用卡",
+          "value": "[辨識失敗: All connection attempts failed]"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域5",
+          "value": "[辨識失敗: All connection attempts failed]"
+        }
+      ]
+    }
+  ]
+}

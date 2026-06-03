@@ -1,0 +1,74 @@
+{
+  "document_info": {
+    "type": "傳統模板識別",
+    "company": "自填表"
+  },
+  "blocks": [
+    {
+      "block_id": "classic_result",
+      "block_title": "自定義框選識別結果",
+      "elements": [
+        {
+          "type": "field",
+          "label": "P1 · 被保險人",
+          "value": "吳心閱鈤基層"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 卡號",
+          "value": "5678 1034 8780 3314"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 報價號碼",
+          "value": "E0251E10010502551"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 繳費期限",
+          "value": "2025/12/18"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 有效日期",
+          "value": ":08月28日"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 信用卡發卡單位",
+          "value": "信用卡賣點：賊VISA MASTER JCB"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 角費號碼",
+          "value": "Shelley Shaw\n5352290022"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 立書日期",
+          "value": "硙郜年2月7日"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 付款金額",
+          "value": "30.117元"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 持卡人身分證",
+          "value": "A276543277"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 銀行",
+          "value": "冒邦銀行"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 要保人簽名",
+          "value": "林兆昌"
+        }
+      ]
+    }
+  ]
+}

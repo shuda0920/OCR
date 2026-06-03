@@ -1,0 +1,39 @@
+{
+  "document_info": {
+    "type": "傳統模板識別",
+    "company": "111"
+  },
+  "blocks": [
+    {
+      "block_id": "classic_result",
+      "block_title": "自定義框選識別結果",
+      "elements": [
+        {
+          "type": "field",
+          "label": "P1 · 區域1",
+          "value": "信用卡種類： VISAC"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域2",
+          "value": "（5）□JCB（3）□AE*(3763、3776)"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域3",
+          "value": "受權碼（由保險公司填寫）："
+        },
+        {
+          "type": "field",
+          "label": "P1 · 信用卡",
+          "value": "法人授權信用卡付款聲明書\n茲聲明授權書內信用卡之持卡人為\n立書日期："
+        },
+        {
+          "type": "field",
+          "label": "P1 · 區域5",
+          "value": "日付款金額：690元"
+        }
+      ]
+    }
+  ]
+}

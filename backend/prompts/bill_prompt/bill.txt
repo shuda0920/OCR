@@ -1,0 +1,12 @@
+1. 電子發票證明聯 (e-Invoice) : 標題含「電子發票證明聯」；左右對稱的 兩個 QR Code；中間一個 一維條碼；編號格式為「2 碼大寫英文字 + 8 碼數字」。
+2. 三聯式統一發票 (3-Copy GUI) : 紙張通常為長方形 A5 大小；標題為「三聯式統一發票」；必含 8 位數買受人統編；金額欄位區分「銷售額」、「稅額」與「總計」。
+3. 收銀機統一發票 (Cash Register Invoice) : 窄長條捲筒紙；頂部有圓形或長方形店章；編號格式為「AA-12345678」；日期通常使用 民國年份 (如 115年)。
+4. 免用統一發票收據 (Small Business Receipt) : 標題為「收據」或「免用統一發票收據」；無英文編號字軌；必含 紫藍色圓形或方形店章，內嵌 8 位統編。
+5. 交易明細 / 銷貨聯 (Transaction Summary) : 標題含「交易明細」或「銷貨明細」；無 QR Code 或條碼；僅列出品項、單價與總金額；通常緊隨於電子發票之後。
+6. 信用卡簽單 (Credit Card Slip) : 標題含「信用卡授權簽單」；顯示 卡號末四碼 (****1234)；含 6 位數 授權碼 (Auth Code) 與終端機編號。
+7. 零售收據 (Sales Receipt) : 頂部為商店商標與詳細地址（含 州縮寫如 CA, NY）；日期格式為 MM/DD/YYYY；底部有獨立的 Sales Tax (稅額) 欄位。
+8. 商業發票 (Commercial Invoice) : 標題明確標註為「Invoice」；有明顯的「Bill To」與「Ship To」區塊；含 P.O. Number (採購單號) 與付款期限 (Terms)。
+9. 餐廳帳單 (Guest Check) : 標題含「Guest Check」、「Table #」或「Server」；品項下方有 Tip (小費) 與 Total (總計) 的手寫橫線；不含支付成功的授權資訊。
+10. 信用卡支付存根 (Credit Card Receipt) : 標題含「Customer Copy」或「Merchant Copy」；顯示 Entry Method: Chip/Swipe；有 Tip 填寫欄位與 Signature 簽名線。
+11. 裝箱單 (Packing Slip) : 標題為「Packing Slip」或「Delivery Note」；清單僅顯示 Qty (數量) 與品項名稱；特徵是 完全不顯示金額與貨幣符號 ($)。
+12. 形式發票 (Pro Forma Invoice) : 標題含「Pro Forma」；格式類似正式發票但非收款憑證；常用於跨境物流，會顯示每項物品的 Unit Value (申報價值)。

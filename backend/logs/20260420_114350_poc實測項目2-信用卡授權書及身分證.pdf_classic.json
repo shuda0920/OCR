@@ -1,0 +1,104 @@
+{
+  "document_info": {
+    "type": "傳統模板識別",
+    "company": "信用卡授權書"
+  },
+  "blocks": [
+    {
+      "block_id": "classic_result",
+      "block_title": "自定義框選識別結果",
+      "elements": [
+        {
+          "type": "field",
+          "label": "P1 · 姓名",
+          "value": "信用卡種類：√VISA(4) □MA"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 報價號碼",
+          "value": "CR(5) □JCB(3) □AE*(3763、3776)"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 繳費期限",
+          "value": "授權碼（由保險公司填寫）：\n3871655"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 信用卡卡號",
+          "value": "法人授權信用卡付款聲明書\n茲聲明授權書內信用卡之持卡人為\n立書日期："
+        },
+        {
+          "type": "field",
+          "label": "P1 · 有效期限",
+          "value": "日付款金額：690元"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 信用卡種類",
+          "value": "持卡人身分證號碼：22015238"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 繳費號碼",
+          "value": "8020（特殊必填室）"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 立書日期",
+          "value": "發卡銀行：要保人簽卡"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 付款金額",
+          "value": "章："
+        },
+        {
+          "type": "field",
+          "label": "P1 · 持卡人身分證",
+          "value": "2k$\\frac{\\mathrm{厘米}}{\\mathrm{克}}$"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 發卡銀行",
+          "value": "（須為保險公司配合之發卡機擴張，查詢網址：https://www.cki.com.tw/Page/Index/83）\n\n持卡人連絡電話："
+        },
+        {
+          "type": "field",
+          "label": "P1 · 持卡聯絡人電話",
+          "value": "持卡人連絡電話："
+        },
+        {
+          "type": "field",
+          "label": "P1 · 授權碼",
+          "value": "9137127\n*請檢\n搀壕人(捲卡人)親自簽名：\n搀壕"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 要保人簽名",
+          "value": "菜漈瑜\n與要保書簽名相同\n簫人（持卡人）姓名："
+        },
+        {
+          "type": "field",
+          "label": "P1 · 持卡人簽名",
+          "value": "陳芳蓉"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 授權人簽名",
+          "value": "楊渠昕"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 業務服務人員",
+          "value": "保單服務人員（含業務員）專對授權書填寫之内容，包含信用卡資料、身分證明文件、關係資讯、授權"
+        },
+        {
+          "type": "field",
+          "label": "P1 · 服務人員簽名",
+          "value": "版本：1141106"
+        }
+      ]
+    }
+  ]
+}

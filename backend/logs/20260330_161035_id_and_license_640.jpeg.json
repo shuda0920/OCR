@@ -1,0 +1,81 @@
+{
+  "document_info": {
+    "document_type": "機車行車執照",
+    "primary_id": "PBQ-9087"
+  },
+  "blocks": [
+    {
+      "block_id": "personal_info",
+      "block_title": "個人基本資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "車主姓名/名稱",
+          "value": "陳[遮蔽]紜"
+        }
+      ]
+    },
+    {
+      "block_id": "license_details",
+      "block_title": "執照與車輛細節 (適用於駕照/行照)",
+      "elements": [
+        {
+          "type": "field",
+          "label": "車牌號碼",
+          "value": "PBQ-9087"
+        },
+        {
+          "type": "field",
+          "label": "廠牌",
+          "value": "光陽"
+        },
+        {
+          "type": "field",
+          "label": "車型/排氣量 (汽缸總排氣量)",
+          "value": "SE24CG LED頭燈 / 121"
+        },
+        {
+          "type": "field",
+          "label": "出廠年份",
+          "value": "2024.06"
+        },
+        {
+          "type": "field",
+          "label": "發照日期",
+          "value": "113.08.29"
+        },
+        {
+          "type": "field",
+          "label": "引擎號碼",
+          "value": "SE24CG-136427"
+        },
+        {
+          "type": "field",
+          "label": "車身號碼",
+          "value": "RFBSE24CGRB136427"
+        },
+        {
+          "type": "field",
+          "label": "顏色",
+          "value": "白"
+        },
+        {
+          "type": "field",
+          "label": "載重/載客人數",
+          "value": null
+        }
+      ]
+    },
+    {
+      "block_id": "address_and_other",
+      "block_title": "地址與其他資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "地址",
+          "value": "臺中市[遮蔽]"
+        }
+      ]
+    }
+  ]
+}

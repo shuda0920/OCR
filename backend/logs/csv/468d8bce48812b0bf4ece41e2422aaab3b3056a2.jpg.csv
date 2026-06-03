@@ -1,0 +1,210 @@
+﻿Time,Filename,Model,doc_type,doc_matched_type,doc_match_score,doc_all_scores,receipt_details,items,adjustments,summary,json_text,receipt_info.store_name,receipt_info.telephone,receipt_info.receipt_type,transaction_details.date,transaction_details.time,transaction_details.transaction_id,transaction_details.machine_id,transaction_details.sequence_number,transaction_details.cashier_id,summary.total_items_count,summary.subtotal,summary.total_amount,receipt_details.store_name,receipt_details.phone,receipt_details.transaction_date,receipt_details.transaction_time,receipt_details.receipt_number,receipt_details.machine_id,receipt_details.order_number,receipt_details.cashier_id,region,main_category,sub_type,confidence_score,is_valid,status_tags,name,tax_id,address.full_address,address.state_province,address.zip_code,contact,invoice_number,order_number,date_iso,time,taiwan_specific.roc_year_period,taiwan_specific.has_qr_code,taiwan_specific.has_barcode,us_specific,currency,subtotal,tax_details,discounts,tip_grancuity,total_amount,rounding_diff,method,card_details,has_official_stamp,is_handwritten,ocr_raw_text,detected_type,use_template,construct_json,tip_gratuity
+2026-05-13 16:00:48,bill_detect_通用智能提取,gemma4:26b,發票識別,通用智能提取,N/A,N/A,"{'store_info': {'branch_name': '華山分公司', 'telephone': '02-2321-3695'}, 'transaction_info': {'date': '2024/06/11', 'time': '18:19', 'terminal_id': '0277 1805', 'machine_id': '027902', 'sequence_number': '000293', 'cashier_id': '2203907'}}","[{'item_id': '#40', 'description': '老協珍人蔘精', 'unit_price': 540, 'currency': 'TWD'}, {'item_id': '#06', 'description': '崇德發黑麥汁', 'unit_price': 168, 'currency': 'TWD'}, {'item_id': '29', 'description': '愛文芒果(盒)', 'unit_price': 99, 'currency': 'TWD'}, {'item_id': '#05', 'description': '新奇潔漂白水', 'unit_price': 79, 'currency': 'TWD'}, {'item_id': '#46', 'description': '可口可樂吸油紙', 'unit_price': 79, 'currency': 'TWD'}, {'item_id': '#34', 'description': '金頂鋰電池2032', 'unit_price': 76, 'currency': 'TWD'}, {'item_id': '#53', 'description': '桂冠輕沙拉', 'unit_price': 28, 'currency': 'TWD'}]","[{'type': 'refund/correction', 'description': '老協珍人蔘精 (Adjustment)', 'amount': -540, 'currency': 'TWD'}, {'type': 'refund/correction', 'description': '可口可樂吸油紙 (Adjustment)', 'amount': -79, 'currency': 'TWD'}]","{'total_item_count': 7, 'subtotal': 1069, 'currency': 'TWD'}","{
+  ""receipt_details"": {
+    ""store_info"": {
+      ""branch_name"": ""華山分公司"",
+      ""telephone"": ""02-2321-3695""
+    },
+    ""transaction_info"": {
+      ""date"": ""2024/06/11"",
+      ""time"": ""18:19"",
+      ""terminal_id"": ""0277 1805"",
+      ""machine_id"": ""027902"",
+      ""sequence_number"": ""000293"",
+      ""cashier_id"": ""2203907""
+    }
+  },
+  ""items"": [
+    {
+      ""item_id"": ""#40"",
+      ""description"": ""老協珍人蔘精"",
+      ""unit_price"": 540,
+      ""currency"": ""TWD""
+    },
+    {
+      ""item_id"": ""#06"",
+      ""description"": ""崇德發黑麥汁"",
+      ""unit_price"": 168,
+      ""currency"": ""TWD""
+    },
+    {
+      ""item_id"": ""29"",
+      ""description"": ""愛文芒果(盒)"",
+      ""unit_price"": 99,
+      ""currency"": ""TWD""
+    },
+    {
+      ""item_id"": ""#05"",
+      ""description"": ""新奇潔漂白水"",
+      ""unit_price"": 79,
+      ""currency"": ""TWD""
+    },
+    {
+      ""item_id"": ""#46"",
+      ""description"": ""可口可樂吸油紙"",
+      ""unit_price"": 79,
+      ""currency"": ""TWD""
+    },
+    {
+      ""item_id"": ""#34"",
+      ""description"": ""金頂鋰電池2032"",
+      ""unit_price"": 76,
+      ""currency"": ""TWD""
+    },
+    {
+      ""item_id"": ""#53"",
+      ""description"": ""桂冠輕沙拉"",
+      ""unit_price"": 28,
+      ""currency"": ""TWD""
+    }
+  ],
+  ""adjustments"": [
+    {
+      ""type"": ""refund/correction"",
+      ""description"": ""老協珍人蔘精 (Adjustment)"",
+      ""amount"": -540,
+      ""currency"": ""TWD""
+    },
+    {
+      ""type"": ""refund/correction"",
+      ""description"": ""可口可樂吸油紙 (Adjustment)"",
+      ""amount"": -79,
+      ""currency"": ""TWD""
+    }
+  ],
+  ""summary"": {
+    ""total_item_count"": 7,
+    ""subtotal"": 1069,
+    ""currency"": ""TWD""
+  }
+}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-05-13 16:05:03,bill_detect_通用智能提取,gemma4:26b,發票識別,通用智能提取,N/A,N/A,"{'store_info': {'branch_name': '華山分公司', 'telephone': '02-2321-3695'}, 'transaction_info': {'date': '2024/06/11', 'time': '18:19', 'machine_id': '027702', 'sequence_number': '000293', 'cashier_id': '2203907', 'reference_no': '0277 1805'}, 'items': [{'item_id': '40', 'description': '老協珍人蔘精', 'price': 540}, {'item_id': '40', 'description': '老協珍人蔘精', 'price': 540}, {'item_id': '40', 'description': '更40 老協珍人蔘精 (Adjustment)', 'price': -540}, {'item_id': '06', 'description': '崇德發黑麥汁', 'price': 168}, {'item_id': '29', 'description': '愛文芒果(盒)', 'price': 99}, {'item_id': '05', 'description': '新奇潔漂白水', 'price': 79}, {'item_id': '46', 'description': '可口可口吸油紙', 'price': 79}, {'item_id': '46', 'description': '可口可口吸油紙', 'price': 79}, {'item_id': '46', 'description': '更46 可口可口吸油紙 (Adjustment)', 'price': -79}, {'item_id': '46', 'description': '可口可口吸油紙', 'price': 79}, {'item_id': '34', 'description': '金頂鋰電池2032', 'price': 76}, {'item_id': '53', 'description': '桂冠輕沙拉', 'price': 28}], 'summary': {'total_items_count': 7, 'subtotal': 1069}}",,,,"{
+  ""receipt_details"": {
+    ""store_info"": {
+      ""branch_name"": ""華山分公司"",
+      ""telephone"": ""02-2321-3695""
+    },
+    ""transaction_info"": {
+      ""date"": ""2024/06/11"",
+      ""time"": ""18:19"",
+      ""machine_id"": ""027702"",
+      ""sequence_number"": ""000293"",
+      ""cashier_id"": ""2203907"",
+      ""reference_no"": ""0277 1805""
+    },
+    ""items"": [
+      {
+        ""item_id"": ""40"",
+        ""description"": ""老協珍人蔘精"",
+        ""price"": 540
+      },
+      {
+        ""item_id"": ""40"",
+        ""description"": ""老協珍人蔘精"",
+        ""price"": 540
+      },
+      {
+        ""item_id"": ""40"",
+        ""description"": ""更40 老協珍人蔘精 (Adjustment)"",
+        ""price"": -540
+      },
+      {
+        ""item_id"": ""06"",
+        ""description"": ""崇德發黑麥汁"",
+        ""price"": 168
+      },
+      {
+        ""item_id"": ""29"",
+        ""description"": ""愛文芒果(盒)"",
+        ""price"": 99
+      },
+      {
+        ""item_id"": ""05"",
+        ""description"": ""新奇潔漂白水"",
+        ""price"": 79
+      },
+      {
+        ""item_id"": ""46"",
+        ""description"": ""可口可口吸油紙"",
+        ""price"": 79
+      },
+      {
+        ""item_id"": ""46"",
+        ""description"": ""可口可口吸油紙"",
+        ""price"": 79
+      },
+      {
+        ""item_id"": ""46"",
+        ""description"": ""更46 可口可口吸油紙 (Adjustment)"",
+        ""price"": -79
+      },
+      {
+        ""item_id"": ""46"",
+        ""description"": ""可口可口吸油紙"",
+        ""price"": 79
+      },
+      {
+        ""item_id"": ""34"",
+        ""description"": ""金頂鋰電池2032"",
+        ""price"": 76
+      },
+      {
+        ""item_id"": ""53"",
+        ""description"": ""桂冠輕沙拉"",
+        ""price"": 28
+      }
+    ],
+    ""summary"": {
+      ""total_items_count"": 7,
+      ""subtotal"": 1069
+    }
+  }
+}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-05-13 16:16:50,bill_detect_通用智能提取,gemma4:26b,發票識別,通用智能提取,N/A,N/A,,,,,,華山分公司,02-2321-3695,(紙電) 消費明細聯 (銷售),2024/06/11,18:19,0277 1805,027702,000293,2203907,7,1069,1069,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-05-13 17:09:30,bill_detect_通用智能提取,gemma4:26b,發票識別,通用智能提取,N/A,N/A,,,,,,,,,,,,,,,7,1069,1069,華山分公司,02-2321-3695,2024/06/11,18:19,0277 1805,027702,000293,2203907,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2026-05-15 09:38:54,bill_detect_交易明細 / 銷貨聯,gemma4:26b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TW,Receipt,Sales Slip,0.98,True,Original,華山分公司,—,—,—,—,02-2321-3695,—,000293,2024-06-11,18:19:00,—,False,False,—,TWD,1069.0,—,0.0,0.0,1069.0,0,—,—,False,False,"(紙電) 消費明細聯 (銷售)
+TEL: 02-2321-3695 華山分公司
+2024/06/11 18:19 0277 1805
+機027702 序000 0293 收銀員2203907
+#40 老協珍人蔘精 540TX
+更40 老協珍人蔘精 -540TX
+#06 崇德發黑麥汁 168TX
+29 愛文芒果(盒) 99
+#05 新奇潔漂白水 79TX
+#46 可伶可俐吸油紙 79TX
+更46 可伶可俐吸油紙 -79TX
+#34 金頂鋰電池2032 76TX
+#53 桂冠輕沙拉 28TX
+共 7 項 小計: 1,069",交易明細 / 銷貨聯,True,"{""document_metadata"": {""region"": ""TW"", ""main_category"": ""Receipt"", ""sub_type"": ""Sales Slip"", ""confidence_score"": 0.98, ""is_valid"": true, ""status_tags"": [""Original""]}, ""issuer_info"": {""name"": ""華山分公司"", ""tax_id"": null, ""address"": {""full_address"": null, ""state_province"": null, ""zip_code"": null}, ""contact"": ""02-2321-3695""}, ""transaction_details"": {""invoice_number"": null, ""order_number"": ""000293"", ""date_iso"": ""2024-06-11"", ""time"": ""18:19:00"", ""taiwan_specific"": {""roc_year_period"": null, ""has_qr_code"": false, ""has_barcode"": false}, ""us_specific"": null}, ""financial_summary"": {""currency"": ""TWD"", ""subtotal"": 1069.0, ""tax_details"": [], ""discounts"": 0.0, ""tip_grancuity"": 0.0, ""total_amount"": 1069.0, ""rounding_diff"": 0}, ""payment_info"": {""method"": null, ""card_details"": null}, ""line_items"": [{""item_id"": ""40"", ""description"": ""老協珍人蔘精"", ""quantity"": 1, ""unit_price"": 540.0, ""tax_label"": ""TX"", ""subtotal"": 540.0}, {""item_id"": ""40"", ""description"": ""更40 老協珍人蔘精"", ""quantity"": -1, ""unit_price"": 540.0, ""tax_label"": ""TX"", ""subtotal"": -540.0}, {""item_id"": ""06"", ""description"": ""崇德發黑麥汁"", ""quantity"": 1, ""unit_price"": 168.0, ""tax_label"": ""TX"", ""subtotal"": 168.0}, {""item_id"": ""29"", ""description"": ""愛文芒果(盒)"", ""quantity"": 1, ""unit_price"": 99.0, ""tax_label"": null, ""subtotal"": 99.0}, {""item_id"": ""05"", ""description"": ""新奇潔漂白水"", ""quantity"": 1, ""unit_price"": 79.0, ""tax_label"": ""TX"", ""subtotal"": 79.0}, {""item_id"": ""46"", ""description"": ""可伶可俐吸油紙"", ""quantity"": 1, ""unit_price"": 79.0, ""tax_label"": ""TX"", ""subtotal"": 79.0}, {""item_id"": ""46"", ""description"": ""更46 可伶可俐吸油紙"", ""quantity"": -1, ""unit_price"": 79.0, ""tax_label"": ""TX"", ""subtotal"": -79.0}, {""item_id"": ""34"", ""description"": ""金頂鋰電池2032"", ""quantity"": 1, ""unit_price"": 76.0, ""tax_label"": ""TX"", ""subtotal"": 76.0}, {""item_id"": ""53"", ""description"": ""桂冠輕沙拉"", ""quantity"": 1, ""unit_price"": 28.0, ""tax_label"": ""TX"", ""subtotal"": 28.0}], ""visual_features"": {""has_official_stamp"": false, ""is_handwritten"": false, ""ocr_raw_text"": ""(紙電) 消費明細聯 (銷售)\nTEL: 02-2321-3695 華山分公司\n2024/06/11 18:19 0277 1805\n機027702 序000 0293 收銀員2203907\n#40 老協珍人蔘精 540TX\n更40 老協珍人蔘精 -540TX\n#06 崇德發黑麥汁 168TX\n29 愛文芒果(盒) 99\n#05 新奇潔漂白水 79TX\n#46 可伶可俐吸油紙 79TX\n更46 可伶可俐吸油紙 -79TX\n#34 金頂鋰電池2032 76TX\n#53 桂冠輕沙拉 28TX\n共 7 項 小計: 1,069""}}",
+2026-05-15 13:50:25,bill_detect_交易明細 / 銷貨聯,gemma4:26b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TW,Receipt,交易明細 / 銷貨聯,0.95,True,—,華山分公司,—,—,—,—,02-2321-3695,—,000293,2024-06-11,18:19:00,—,False,False,,TWD,1069.0,—,0.0,,—,0.0,—,—,False,False,"(紙電) 消費明細聯 (銷售)
+TEL : 02-2321-3695 華山分公司
+2024/06/11 18:19 0277 1805
+機027702 序000293 收銀員2203907
+#40 老協珍人蔘精 540TX
+#40 老協珍人蔘精 540TX
+更40 老協珍人蔘精 - 540TX
+#06 崇德發黑麥汁 168TX
+29 愛文芒果(盒) 99
+#05 新奇潔髒白水 79TX
+#46 可口可樂吸油紙 79TX
+#46 可口可樂吸油紙 79TX
+更46 可口可樂吸油紙 - 79TX
+#34 金頂鋰電池2032 76TX
+共 7 項 小計: 1,069
+總計: ",交易明細 / 銷貨聯,True,"{""document_metadata"": {""region"": ""TW"", ""main_category"": ""Receipt"", ""sub_type"": ""交易明細 / 銷貨聯"", ""confidence_score"": 0.95, ""is_valid"": true, ""status_tags"": []}, ""issuer_info"": {""name"": ""華山分公司"", ""tax_id"": null, ""address"": {""full_address"": null, ""state_province"": null, ""zip_code"": null}, ""contact"": ""02-2321-3695""}, ""transaction_details"": {""invoice_number"": null, ""order_number"": ""000293"", ""date_iso"": ""2024-06-11"", ""time"": ""18:19:00"", ""taiwan_specific"": {""roc_year_period"": null, ""has_qr_code"": false, ""has_barcode"": false}}, ""financial_summary"": {""currency"": ""TWD"", ""subtotal"": 1069.0, ""tax_details"": [], ""discounts"": 0.0, ""tip_gratuity"": 0.0, ""total_amount"": null, ""rounding_diff"": 0.0}, ""payment_info"": {""method"": null, ""card_details"": null}, ""line_items"": [{""item_id"": ""40"", ""description"": ""老協珍人蔘精"", ""quantity"": 1, ""unit_price"": 540.0, ""tax_label"": ""TX"", ""subtotal"": 540.0}, {""item_id"": ""40"", ""description"": ""老協珍人蔘精"", ""quantity"": 1, ""unit_price"": 540.0, ""tax_label"": ""TX"", ""subtotal"": 540.0}, {""item_id"": ""40"", ""description"": ""更40 老協珍人蔘精"", ""quantity"": 1, ""unit_price"": -540.0, ""tax_label"": ""TX"", ""subtotal"": -540.0}, {""item_id"": ""06"", ""description"": ""崇德發黑麥汁"", ""quantity"": 1, ""unit_price"": 168.0, ""tax_label"": ""TX"", ""subtotal"": 168.0}, {""item_id"": ""29"", ""description"": ""愛文芒果(盒)"", ""quantity"": 1, ""unit_price"": 99.0, ""tax_label"": null, ""subtotal"": 99.0}, {""item_id"": ""05"", ""description"": ""新奇潔髒白水"", ""quantity"": 1, ""unit_price"": 79.0, ""tax_label"": ""TX"", ""subtotal"": 79.0}, {""item_id"": ""46"", ""description"": ""可口可樂吸油紙"", ""quantity"": 1, ""unit_price"": 79.0, ""tax_label"": ""TX"", ""subtotal"": 79.0}, {""item_id"": ""46"", ""description"": ""可口可樂吸油紙"", ""quantity"": 1, ""unit_price"": 79.0, ""tax_label"": ""TX"", ""subtotal"": 79.0}, {""item_id"": ""46"", ""description"": ""更46 可口可樂吸油紙"", ""quantity"": 1, ""unit_price"": -79.0, ""tax_label"": ""TX"", ""subtotal"": -79.0}, {""item_id"": ""34"", ""description"": ""金頂鋰電池2032"", ""quantity"": 1, ""unit_price"": 76.0, ""tax_label"": ""TX"", ""subtotal"": 76.0}], ""visual_features"": {""has_official_stamp"": false, ""is_handwritten"": false, ""ocr_raw_text"": ""(紙電) 消費明細聯 (銷售)\nTEL : 02-2321-3695 華山分公司\n2024/06/11 18:19 0277 1805\n機027702 序000293 收銀員2203907\n#40 老協珍人蔘精 540TX\n#40 老協珍人蔘精 540TX\n更40 老協珍人蔘精 - 540TX\n#06 崇德發黑麥汁 168TX\n29 愛文芒果(盒) 99\n#05 新奇潔髒白水 79TX\n#46 可口可樂吸油紙 79TX\n#46 可口可樂吸油紙 79TX\n更46 可口可樂吸油紙 - 79TX\n#34 金頂鋰電池2032 76TX\n共 7 項 小計: 1,069\n總計: ""}}",0.0
+2026-05-15 14:20:15,bill_detect_交易明細 / 銷貨聯,gemma4:26b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TW,Receipt,交易明細 / 銷貨聯,0.95,True,—,華山分公司,—,—,—,—,02-2321-3695,0277 1805,027702-000293,2024-06-11,18:19:00,—,False,False,,TWD,1069.0,—,0.0,,1069.0,0.0,—,—,False,False,"(紙電) 消費明細聯 (銷售
+TEL : 02-2321-3695 華山分公司
+2024/06/11 18:19 0277 1805
+機027702 序000293 收銀員2203907
+#40 老協珍人蔘精 540TX
+#40 老協珍人蔘精 540TX
+更40 老協珍人蔘精 - 540TX
+#06 崇德發黑麥汁 168TX
+29 愛文芒果(盒) 99
+#05 新奇潔濕白水 79TX
+#46 可口可樂吸油紙 79TX
+#46 可口可樂吸油紙 79TX
+更46 可口可樂吸油紙 - 79TX
+#34 金頂鋰電池2032 76TX
+共 7 項 小計: 1,069
+總計: 1,069",交易明細 / 銷貨聯,True,"{""document_metadata"": {""region"": ""TW"", ""main_category"": ""Receipt"", ""sub_type"": ""交易明細 / 銷貨聯"", ""confidence_score"": 0.95, ""is_valid"": true, ""status_tags"": []}, ""issuer_info"": {""name"": ""華山分公司"", ""tax_id"": null, ""address"": {""full_address"": null, ""state_province"": null, ""zip_code"": null}, ""contact"": ""02-2321-3695""}, ""transaction_details"": {""invoice_number"": ""0277 1805"", ""order_number"": ""027702-000293"", ""date_iso"": ""2024-06-11"", ""time"": ""18:19:00"", ""taiwan_specific"": {""roc_year_period"": null, ""has_qr_code"": false, ""has_barcode"": false}}, ""financial_summary"": {""currency"": ""TWD"", ""subtotal"": 1069.0, ""tax_details"": [], ""discounts"": 0.0, ""tip_gratuity"": 0.0, ""total_amount"": 1069.0, ""rounding_diff"": 0.0}, ""payment_info"": {""method"": null, ""card_details"": null}, ""line_items"": [{""item_id"": ""40"", ""description"": ""老協珍人蔘精"", ""quantity"": 1, ""unit_price"": 540.0, ""tax_label"": ""TX"", ""subtotal"": 540.0}, {""item_id"": ""06"", ""description"": ""崇德發黑麥汁"", ""quantity"": 1, ""unit_price"": 168.0, ""tax_label"": ""TX"", ""subtotal"": 168.0}, {""item_id"": ""29"", ""description"": ""愛文芒果(盒)"", ""quantity"": 1, ""unit_price"": 99.0, ""tax_label"": null, ""subtotal"": 99.0}, {""item_id"": ""05"", ""description"": ""新奇潔濕白水"", ""quantity"": 1, ""unit_price"": 79.0, ""tax_label"": ""TX"", ""subtotal"": 79.0}, {""item_id"": ""46"", ""description"": ""可口可樂吸油紙"", ""quantity"": 1, ""unit_price"": 79.0, ""tax_label"": ""TX"", ""subtotal"": 79.0}, {""item_id"": ""46"", ""description"": ""可口可樂吸油紙"", ""quantity"": 1, ""unit_price"": 79.0, ""tax_label"": ""TX"", ""subtotal"": 79.0}, {""item_id"": ""34"", ""description"": ""金頂鋰電池2032"", ""quantity"": 1, ""unit_price"": 76.0, ""tax_label"": ""TX"", ""subtotal"": 76.0}], ""visual_features"": {""has_official_stamp"": false, ""is_handwritten"": false, ""ocr_raw_text"": ""(紙電) 消費明細聯 (銷售\nTEL : 02-2321-3695 華山分公司\n2024/06/11 18:19 0277 1805\n機027702 序000293 收銀員2203907\n#40 老協珍人蔘精 540TX\n#40 老協珍人蔘精 540TX\n更40 老協珍人蔘精 - 540TX\n#06 崇德發黑麥汁 168TX\n29 愛文芒果(盒) 99\n#05 新奇潔濕白水 79TX\n#46 可口可樂吸油紙 79TX\n#46 可口可樂吸油紙 79TX\n更46 可口可樂吸油紙 - 79TX\n#34 金頂鋰電池2032 76TX\n共 7 項 小計: 1,069\n總計: 1,069""}}",0.0

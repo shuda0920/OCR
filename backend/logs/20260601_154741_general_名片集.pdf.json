@@ -1,0 +1,327 @@
+{
+  "document_info": {
+    "document_type": "名片 (Digital Business Card)",
+    "primary_entity_name": "互動國際數位 Interactive Digital Technologies"
+  },
+  "blocks": [
+    {
+      "block_title": "公司標誌與合作夥伴資訊",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "iot 互動國際數位 Interactive Digital Technologies"
+        },
+        {
+          "type": "text_block",
+          "content": "esri Official Distributor www.esri.tw"
+        }
+      ]
+    },
+    {
+      "block_title": "個人詳細資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "姓名",
+          "value": "蔣 威"
+        },
+        {
+          "type": "field",
+          "label": "職稱",
+          "value": "專案經理"
+        },
+        {
+          "type": "field",
+          "label": "部門",
+          "value": "GIS事業處/業務二部"
+        }
+      ]
+    },
+    {
+      "block_title": "聯絡資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "手機",
+          "value": "0929-882168"
+        },
+        {
+          "type": "field",
+          "label": "電話",
+          "value": "+886-2-26585858 ext.6638"
+        },
+        {
+          "type": "field",
+          "label": "傳真/其他電話",
+          "value": "+886-2-26585865"
+        },
+        {
+          "type": "field",
+          "label": "地址",
+          "value": "114066 台北市內湖區內湖路一段66號2樓 2F., No.66, Sec. 1, Neihu Rd., Taipei City 114066, Taiwan, R.O.C."
+        },
+        {
+          "type": "field",
+          "label": "電子郵件",
+          "value": "weichiang@igis.com.tw"
+        }
+      ]
+    },
+    {
+      "block_title": "Content Fragment",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "Lenovo"
+        },
+        {
+          "type": "field",
+          "label": "Partial Text",
+          "value": "工公田"
+        }
+      ]
+    },
+    {
+      "block_title": "個人專業資訊",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "王允ical\n企業不動產設施管理 副總經理\nIFMA註冊設施管理師"
+        }
+      ]
+    },
+    {
+      "block_title": "公司聯絡資訊",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "台灣聯想環球科技股份有限公司\n104050台北市中山區樂群三路128號16F"
+        },
+        {
+          "type": "field",
+          "label": "統一編號",
+          "value": "52604488"
+        },
+        {
+          "type": "field",
+          "label": "電話",
+          "value": "02 8170 7500"
+        },
+        {
+          "type": "field",
+          "label": "行動",
+          "value": "0972 333 004"
+        }
+      ]
+    },
+    {
+      "block_title": "聯絡方式",
+      "elements": [
+        {
+          "type": "field",
+          "label": "行動",
+          "value": "0972 333 004"
+        },
+        {
+          "type": "field",
+          "label": "傳真",
+          "value": "02 8502 6635"
+        },
+        {
+          "type": "field",
+          "label": "信箱",
+          "value": "ywang9@lenovo.com"
+        },
+        {
+          "type": "text_block",
+          "content": "Lenovo.com"
+        }
+      ]
+    },
+    {
+      "block_title": "公司與合作夥伴資訊",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "ist 互動國際數位 Interactive Digital Technologies"
+        },
+        {
+          "type": "text_block",
+          "content": "esri Official Distributor www.esri.tw"
+        }
+      ]
+    },
+    {
+      "block_title": "個人基本資料",
+      "elements": [
+        {
+          "type": "field",
+          "label": "姓名",
+          "value": "蔣 威"
+        },
+        {
+          "type": "field",
+          "label": "職稱",
+          "value": "專案經理"
+        },
+        {
+          "type": "field",
+          "label": "部門",
+          "value": "GIS事業部/業務二部"
+        },
+        {
+          "type": "field",
+          "label": "手機",
+          "value": "0929-882168"
+        }
+      ]
+    },
+    {
+      "block_title": "聯絡資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "地址",
+          "value": "114066 台北市內湖區內湖路一段66號2樓 2F., No.66, Sec. 1, Neihu Rd., Taipei City 114066, Taiwan, R.O.C."
+        },
+        {
+          "type": "field",
+          "label": "電話",
+          "value": "+886-2-26585858 ext.6638"
+        },
+        {
+          "type": "field",
+          "label": "傳真",
+          "value": "+886-2-26585865"
+        },
+        {
+          "type": "field",
+          "label": "電子郵件",
+          "value": "weichiang@igis.com.tw"
+        }
+      ]
+    },
+    {
+      "block_title": "品牌識別",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "TAIPEI 101"
+        }
+      ]
+    },
+    {
+      "block_title": "個人資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "姓名",
+          "value": "林喬樺"
+        },
+        {
+          "type": "field",
+          "label": "部門",
+          "value": "資訊部"
+        }
+      ]
+    },
+    {
+      "block_title": "公司聯絡資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "公司名稱",
+          "value": "台北金融大樓股份有限公司"
+        },
+        {
+          "type": "field",
+          "label": "地址",
+          "value": "台北市110信義路5段7號60樓"
+        },
+        {
+          "type": "field",
+          "label": "統一編號",
+          "value": "16095410"
+        },
+        {
+          "type": "field",
+          "label": "電話 (T)",
+          "value": "886 2 8101 9058"
+        },
+        {
+          "type": "field",
+          "label": "傳真 (F)",
+          "value": "886 2 8101 7813"
+        },
+        {
+          "type": "field",
+          "label": "電子郵件",
+          "value": "chwei.lin@tfc101.com.tw"
+        }
+      ]
+    },
+    {
+      "block_title": "個人基本資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "職稱 (EN)",
+          "value": "Sr. Project Manager"
+        },
+        {
+          "type": "field",
+          "label": "職稱 (ZH)",
+          "value": "資深專案經理"
+        },
+        {
+          "type": "field",
+          "label": "姓名 (EN)",
+          "value": "Jimmy Lin"
+        },
+        {
+          "type": "field",
+          "label": "姓名 (ZH)",
+          "value": "林 松 霖"
+        }
+      ]
+    },
+    {
+      "block_title": "聯繫方式",
+      "elements": [
+        {
+          "type": "field",
+          "label": "T",
+          "value": "+886-2-2343-5562"
+        },
+        {
+          "type": "field",
+          "label": "F",
+          "value": "+886-2-2343-5565"
+        },
+        {
+          "type": "field",
+          "label": "M",
+          "value": "+886-912-403-010"
+        },
+        {
+          "type": "field",
+          "label": "E",
+          "value": "jimmylin@bigobject.io"
+        }
+      ]
+    },
+    {
+      "block_title": "公司資訊",
+      "elements": [
+        {
+          "type": "text_block",
+          "content": "BigObject Private Ltd.\n11 Biopolis Way, #09-03 Helios, SG 138667"
+        },
+        {
+          "type": "text_block",
+          "content": "BigObject Inc. 核桃運算股份有限公司\nUBN 統編 : 54703506\n10049 臺北市中正區忠孝東路1段9號4樓"
+        }
+      ]
+    }
+  ]
+}

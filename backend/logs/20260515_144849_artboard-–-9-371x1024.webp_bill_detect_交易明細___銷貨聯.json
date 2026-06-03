@@ -1,0 +1,122 @@
+{
+  "detected_type": "交易明細 / 銷貨聯",
+  "use_template": true,
+  "blocks": [
+    {
+      "block_id": "extra",
+      "block_title": "其他資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "print_time",
+          "value": "03-17 17:30 小明"
+        },
+        {
+          "type": "field",
+          "label": "order_id",
+          "value": "line2021098765"
+        },
+        {
+          "type": "field",
+          "label": "order_time",
+          "value": "2021-03-17 15:20"
+        },
+        {
+          "type": "field",
+          "label": "payment_method",
+          "value": "轉帳匯款($1280)"
+        },
+        {
+          "type": "field",
+          "label": "payment_status",
+          "value": "未付款"
+        },
+        {
+          "type": "field",
+          "label": "pickup_method",
+          "value": "自取"
+        },
+        {
+          "type": "field",
+          "label": "pickup_time",
+          "value": "2021-06-23 15:30"
+        },
+        {
+          "type": "field",
+          "label": "pickup_person.name",
+          "value": "釋金城"
+        },
+        {
+          "type": "field",
+          "label": "pickup_person.phone",
+          "value": "0912345678"
+        },
+        {
+          "type": "field",
+          "label": "customer_note",
+          "value": "不需要塑膠袋。"
+        },
+        {
+          "type": "record_list",
+          "label": "items",
+          "records": [
+            {
+              "item_name": "黃金泡菜(3入裝)",
+              "quantity": 1,
+              "description": "2倍泡菜 • 不辣",
+              "price": 1080
+            },
+            {
+              "item_name": "台式泡菜",
+              "quantity": 1,
+              "description": "2倍泡菜",
+              "price": 200
+            }
+          ]
+        },
+        {
+          "type": "field",
+          "label": "summary.item_count",
+          "value": "2項"
+        },
+        {
+          "type": "field",
+          "label": "summary.total_amount",
+          "value": "1280"
+        }
+      ]
+    }
+  ],
+  "construct_json": {
+    "print_time": "03-17 17:30 小明",
+    "order_id": "line2021098765",
+    "order_time": "2021-03-17 15:20",
+    "payment_method": "轉帳匯款($1280)",
+    "payment_status": "未付款",
+    "pickup_method": "自取",
+    "pickup_time": "2021-06-23 15:30",
+    "pickup_person": {
+      "name": "釋金城",
+      "phone": "0912345678"
+    },
+    "customer_note": "不需要塑膠袋。",
+    "items": [
+      {
+        "item_name": "黃金泡菜(3入裝)",
+        "quantity": 1,
+        "description": "2倍泡菜 • 不辣",
+        "price": 1080
+      },
+      {
+        "item_name": "台式泡菜",
+        "quantity": 1,
+        "description": "2倍泡菜",
+        "price": 200
+      }
+    ],
+    "summary": {
+      "item_count": "2項",
+      "total_amount": 1280
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "document_info": {
+    "type": "發票識別",
+    "matched_type": "通用智能提取",
+    "match_score": "N/A",
+    "all_scores": "N/A"
+  },
+  "blocks": [
+    {
+      "block_id": "bill_result",
+      "block_title": "發票解析結果 (通用智能提取)",
+      "elements": [
+        {
+          "type": "field",
+          "label": "receipt_info.store_name",
+          "value": "華山分公司"
+        },
+        {
+          "type": "field",
+          "label": "receipt_info.telephone",
+          "value": "02-2321-3695"
+        },
+        {
+          "type": "field",
+          "label": "receipt_info.receipt_type",
+          "value": "(紙電) 消費明細聯 (銷售)"
+        },
+        {
+          "type": "field",
+          "label": "transaction_details.date",
+          "value": "2024/06/11"
+        },
+        {
+          "type": "field",
+          "label": "transaction_details.time",
+          "value": "18:19"
+        },
+        {
+          "type": "field",
+          "label": "transaction_details.transaction_id",
+          "value": "0277 1805"
+        },
+        {
+          "type": "field",
+          "label": "transaction_details.machine_id",
+          "value": "027702"
+        },
+        {
+          "type": "field",
+          "label": "transaction_details.sequence_number",
+          "value": "000293"
+        },
+        {
+          "type": "field",
+          "label": "transaction_details.cashier_id",
+          "value": "2203907"
+        },
+        {
+          "type": "record_list",
+          "label": "items",
+          "records": [
+            {
+              "item_code": "40",
+              "item_name": "老協珍人蔘精",
+              "price": 540,
+              "is_adjustment": false
+            },
+            {
+              "item_code": "40",
+              "item_name": "老協珍人蔘精",
+              "price": 540,
+              "is_adjustment": false
+            },
+            {
+              "item_code": "40",
+              "item_name": "老協珍人蔘精",
+              "price": -540,
+              "is_adjustment": true,
+              "note": "更正/退款"
+            },
+            {
+              "item_code": "06",
+              "item_name": "崇德發黑麥汁",
+              "price": 168,
+              "is_adjustment": false
+            },
+            {
+              "item_code": "29",
+              "item_name": "愛文芒果(盒)",
+              "price": 99,
+              "is_adjustment": false
+            },
+            {
+              "item_code": "05",
+              "item_name": "新奇潔漂白水",
+              "price": 79,
+              "is_adjustment": false
+            },
+            {
+              "item_code": "46",
+              "item_name": "可口可口吸油紙",
+              "price": 79,
+              "is_adjustment": false
+            },
+            {
+              "item_code": "46",
+              "item_name": "可口可口吸油紙",
+              "price": 79,
+              "is_adjustment": false
+            },
+            {
+              "item_code": "46",
+              "item_name": "可口可口吸油紙",
+              "price": -79,
+              "is_adjustment": true,
+              "note": "更正/退款"
+            },
+            {
+              "item_code": "34",
+              "item_name": "金頂鋰電池2032",
+              "price": 76,
+              "is_adjustment": false
+            },
+            {
+              "item_code": "53",
+              "item_name": "桂冠輕沙拉",
+              "price": 28,
+              "is_adjustment": false
+            }
+          ]
+        },
+        {
+          "type": "field",
+          "label": "summary.total_items_count",
+          "value": "7"
+        },
+        {
+          "type": "field",
+          "label": "summary.subtotal",
+          "value": "1069"
+        },
+        {
+          "type": "field",
+          "label": "summary.total_amount",
+          "value": "1069"
+        }
+      ]
+    }
+  ]
+}

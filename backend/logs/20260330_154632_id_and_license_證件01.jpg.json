@@ -1,0 +1,105 @@
+{
+  "document_info": {
+    "document_type": "中華民國身分證正面/反面",
+    "primary_id": "F22█689, A12█7925"
+  },
+  "blocks": [
+    {
+      "block_id": "personal_info",
+      "block_title": "個人基本資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "姓名",
+          "value": "葉█萱"
+        },
+        {
+          "type": "field",
+          "label": "身分證字號",
+          "value": "F22█689"
+        },
+        {
+          "type": "field",
+          "label": "出生年月日",
+          "value": "民國82年█月6日"
+        },
+        {
+          "type": "field",
+          "label": "發證日期與類型",
+          "value": "民國110年2月8日 (北市)換發"
+        },
+        {
+          "type": "field",
+          "label": "姓名",
+          "value": "葉█福"
+        },
+        {
+          "type": "field",
+          "label": "身分證字號",
+          "value": "A12█7925"
+        },
+        {
+          "type": "field",
+          "label": "出生年月日",
+          "value": "民國48年█月8日"
+        },
+        {
+          "type": "field",
+          "label": "發證日期與類型",
+          "value": "民國95年8月4日 (北市)換發"
+        }
+      ]
+    },
+    {
+      "block_id": "license_details",
+      "block_title": "執照與車輛細節 (適用於駕照/行照)",
+      "elements": []
+    },
+    {
+      "block_id": "address_and_other",
+      "block_title": "地址與其他資訊",
+      "elements": [
+        {
+          "type": "field",
+          "label": "戶籍地址",
+          "value": "臺北市大同區老師里5鄰延平北路███29號"
+        },
+        {
+          "type": "field",
+          "label": "父母親姓名",
+          "value": "父: 葉█福, 母: 林█端"
+        },
+        {
+          "type": "field",
+          "label": "配偶姓名",
+          "value": "詹嘉█"
+        },
+        {
+          "type": "field",
+          "label": "役別",
+          "value": null
+        },
+        {
+          "type": "field",
+          "label": "戶籍地址",
+          "value": "臺北市大同區老師里5鄰延平北路███巷29號"
+        },
+        {
+          "type": "field",
+          "label": "父母親姓名",
+          "value": "父: 葉█榮, 母: 葉█錦"
+        },
+        {
+          "type": "field",
+          "label": "配偶姓名",
+          "value": "林█端"
+        },
+        {
+          "type": "field",
+          "label": "役別",
+          "value": null
+        }
+      ]
+    }
+  ]
+}
